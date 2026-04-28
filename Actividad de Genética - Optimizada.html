@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)https://crea.ort.edu.ar/html/2367777/prueba-calvicie -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script>
+  function notificarAltura() {
+    window.parent.postMessage(
+      { type: 'sc-resize', height: document.documentElement.scrollHeight },
+      '*'
+    );
+  }
+  window.addEventListener('load', notificarAltura);
+  new ResizeObserver(notificarAltura).observe(document.documentElement);
+</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad de Genética - Optimizada</title>
+    <!-- Tailwind CSS -->
+    <script src="./Actividad de Genética - Optimizada_files/saved_resource"></script>
+    <!-- React & ReactDOM -->
+    <script src="./Actividad de Genética - Optimizada_files/react.production.min.js.descarga"></script>
+    <script src="./Actividad de Genética - Optimizada_files/react-dom.production.min.js.descarga"></script>
+    <!-- Babel standalone for JSX -->
+    <script src="./Actividad de Genética - Optimizada_files/babel.min.js.descarga"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;700;900&display=swap');
+        
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: transparent;
+            font-family: 'Source Sans 3', sans-serif;
+            overflow: auto;
+        }
+
+        #root-container {
+            width: 100%;
+            max-width: 1024px;
+            min-height: 685px;
+            background: white;
+            overflow: visible;
+            position: relative;
+            margin: 0 auto;
+        }
+    </style>
+<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.absolute{position:absolute}.relative{position:relative}.top-\[-15px\]{top:-15px}.-mt-1{margin-top:-0.25rem}.mb-0{margin-bottom:0px}.mb-1\.5{margin-bottom:0.375rem}.mb-2{margin-bottom:0.5rem}.mb-4{margin-bottom:1rem}.mt-auto{margin-top:auto}.inline-block{display:inline-block}.flex{display:flex}.h-10{height:2.5rem}.h-44{height:11rem}.h-full{height:100%}.min-h-screen{min-height:100vh}.w-44{width:11rem}.w-full{width:100%}.max-w-4xl{max-width:56rem}.max-w-\[180px\]{max-width:180px}.max-w-\[280px\]{max-width:280px}.flex-1{flex:1 1 0%}.flex-col{flex-direction:column}.items-center{align-items:center}.justify-center{justify-content:center}.gap-10{gap:2.5rem}.gap-2{gap:0.5rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.overflow-visible{overflow:visible}.rounded-sm{border-radius:0.125rem}.border-2{border-width:2px}.border-\[\#192e35\]\/20{border-color:rgb(25 46 53 / 0.2)}.bg-\[\#192e35\]{--tw-bg-opacity:1;background-color:rgb(25 46 53 / var(--tw-bg-opacity, 1))}.bg-\[\#b66eab\]{--tw-bg-opacity:1;background-color:rgb(182 110 171 / var(--tw-bg-opacity, 1))}.bg-gray-50{--tw-bg-opacity:1;background-color:rgb(249 250 251 / var(--tw-bg-opacity, 1))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.object-contain{object-fit:contain}.p-1\.5{padding:0.375rem}.p-5{padding:1.25rem}.px-4{padding-left:1rem;padding-right:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.px-8{padding-left:2rem;padding-right:2rem}.py-1\.5{padding-top:0.375rem;padding-bottom:0.375rem}.py-2\.5{padding-top:0.625rem;padding-bottom:0.625rem}.pb-0\.5{padding-bottom:0.125rem}.pt-2{padding-top:0.5rem}.text-center{text-align:center}.font-sans{font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"}.text-\[10px\]{font-size:10px}.text-\[13px\]{font-size:13px}.text-\[14px\]{font-size:14px}.text-\[16px\]{font-size:16px}.text-base{font-size:1rem;line-height:1.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.font-black{font-weight:900}.font-bold{font-weight:700}.uppercase{text-transform:uppercase}.italic{font-style:italic}.tracking-\[0\.2em\]{letter-spacing:0.2em}.tracking-widest{letter-spacing:0.1em}.text-\[\#192e35\]{--tw-text-opacity:1;color:rgb(25 46 53 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.opacity-30{opacity:0.3}.opacity-40{opacity:0.4}.opacity-60{opacity:0.6}.shadow-\[0_4px_0_0_\#94568a\]{--tw-shadow:0 4px 0 0 #94568a;--tw-shadow-colored:0 4px 0 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.hover\:bg-gray-100:hover{--tw-bg-opacity:1;background-color:rgb(243 244 246 / var(--tw-bg-opacity, 1))}.hover\:opacity-90:hover{opacity:0.9}.focus\:border-\[\#192e35\]:focus{--tw-border-opacity:1;border-color:rgb(25 46 53 / var(--tw-border-opacity, 1))}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.active\:translate-y-1:active{--tw-translate-y:0.25rem;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.active\:shadow-none:active{--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}</style><script>"use strict";
+
+function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
+function _slicedToArray(r, e) { return _arrayWithHoles(r) || _iterableToArrayLimit(r, e) || _unsupportedIterableToArray(r, e) || _nonIterableRest(); }
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) return _arrayLikeToArray(r, a); var t = {}.toString.call(r).slice(8, -1); return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? _arrayLikeToArray(r, a) : void 0; } }
+function _arrayLikeToArray(r, a) { (null == a || a > r.length) && (a = r.length); for (var e = 0, n = Array(a); e < a; e++) n[e] = r[e]; return n; }
+function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t["return"] && (u = t["return"](), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
+function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
+function ownKeys(e, r) { var t = Object.keys(e); if (Object.getOwnPropertySymbols) { var o = Object.getOwnPropertySymbols(e); r && (o = o.filter(function (r) { return Object.getOwnPropertyDescriptor(e, r).enumerable; })), t.push.apply(t, o); } return t; }
+function _objectSpread(e) { for (var r = 1; r < arguments.length; r++) { var t = null != arguments[r] ? arguments[r] : {}; r % 2 ? ownKeys(Object(t), !0).forEach(function (r) { _defineProperty(e, r, t[r]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : ownKeys(Object(t)).forEach(function (r) { Object.defineProperty(e, r, Object.getOwnPropertyDescriptor(t, r)); }); } return e; }
+function _defineProperty(e, r, t) { return (r = _toPropertyKey(r)) in e ? Object.defineProperty(e, r, { value: t, enumerable: !0, configurable: !0, writable: !0 }) : e[r] = t, e; }
+function _toPropertyKey(t) { var i = _toPrimitive(t, "string"); return "symbol" == _typeof(i) ? i : i + ""; }
+function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e = t[Symbol.toPrimitive]; if (void 0 !== e) { var i = e.call(t, r || "default"); if ("object" != _typeof(i)) return i; throw new TypeError("@@toPrimitive must return a primitive value."); } return ("string" === r ? String : Number)(t); }
+var _React = React,
+  useState = _React.useState;
+var CheckIcon = function CheckIcon() {
+  return /*#__PURE__*/React.createElement("svg", {
+    width: "18",
+    height: "18",
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: "currentColor",
+    strokeWidth: "4",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  }, /*#__PURE__*/React.createElement("polyline", {
+    points: "20 6 9 17 4 12"
+  }));
+};
+var XIcon = function XIcon() {
+  return /*#__PURE__*/React.createElement("svg", {
+    width: "18",
+    height: "18",
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: "currentColor",
+    strokeWidth: "4",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  }, /*#__PURE__*/React.createElement("line", {
+    x1: "18",
+    y1: "6",
+    x2: "6",
+    y2: "18"
+  }), /*#__PURE__*/React.createElement("line", {
+    x1: "6",
+    y1: "6",
+    x2: "18",
+    y2: "18"
+  }));
+};
+var RotateIcon = function RotateIcon() {
+  return /*#__PURE__*/React.createElement("svg", {
+    width: "20",
+    height: "20",
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: "currentColor",
+    strokeWidth: "2",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  }, /*#__PURE__*/React.createElement("polyline", {
+    points: "1 4 1 10 7 10"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M3.51 15a9 9 0 1 0 2.13-9.36L1 10"
+  }));
+};
+var FatherSVG = function FatherSVG() {
+  return /*#__PURE__*/React.createElement("svg", {
+    id: "Capa_2",
+    "data-name": "Capa 2",
+    xmlns: "http://www.w3.org/2000/svg",
+    viewBox: "0 0 137.87 434.77",
+    className: "w-full h-full object-contain"
+  }, /*#__PURE__*/React.createElement("path", {
+    fill: "#192f36",
+    d: "M131.39,231.92c.01-1.82.34-3.8.47-5.62.11-1.61-.4-3.32-.47-4.92-.33-7.35-.26-15.23-.43-22.84-.19-8.09.34-16.74-.95-24.58-.61-3.69-2.07-7.43-2.78-11.1-2.1-10.98-1.03-38.61-1.04-50,0-7.52-1.37-16.21-5.55-22.57-2.93-4.46-8.43-7.09-13.53-8.23-4.18-1.17-8.33-2.42-12.45-3.78-3.48-1.15-11.72-2.74-13.1-5.84-1.52-3.42-.9-7.62-.79-11.92,1.99-2.68,3.41-5.65,4.1-8.07,2.23-.16,1.78-4.06,2.1-5.05.32-.99,2.11-6.75,1.54-7.55-.58-.8-1.24-.03-1.24-.03,0,0,1.23-10.54-1.14-16.68-1.85-4.8-7.57-11.38-17.86-11.38h-.02c-10.29,0-16.01,6.59-17.86,11.38-2.36,6.14-1.13,16.68-1.13,16.68,0,0-.67-.78-1.25.03-.58.8,1.22,6.56,1.54,7.55.32.99-.13,4.89,2.1,5.05.78,2.76,2.54,6.26,5.01,9.22.08,3.92.46,7.64-.94,10.77-1.37,3.06-9.34,4.68-12.78,5.84-4.01,1.35-8.06,2.61-12.13,3.78-5.1,1.13-10.61,3.77-13.53,8.23-4.18,6.36-5.55,15.05-5.55,22.57-.01,11.38,1.06,39.02-1.04,50-.7,3.67-2.17,7.41-2.78,11.1-1.29,7.85-.77,16.49-.95,24.58-.18,7.61-.11,15.48-.44,22.84-.07,1.6-.58,3.31-.47,4.92.13,1.82.45,3.8.47,5.62.03,5.22-1.94,11.36-1.2,16.41.56,3.77,3.29,10.38,5.98,12.67,2.38,2.02,7.31,5.22,9.77,5.36.19.01.79-1.82.2-3.04-.93-1.93-4.09-3.39-4.92-4.85-.84-1.47-.92-3.38-1.07-5.03-.13-1.5-.52-3.06,0-4.58.23-.67.91-2.54,1.79-2.54.2,0,1.35,1.09,1.46,1.93.19,1.46.08,3.08.2,4.52.15,1.79,1.28,5.42,3.06,5.69,1.39.21,1.46-.22,1.79-.87s-.4-3.39-.13-4.32-.03-2.71-.2-3.52c-.47-2.15.16-4.91-.13-7.22-.31-2.4-1.31-5.47-2.72-7.45-1.19-1.66-2.92-3.43-3.45-5.36-.63-2.27-.47-5.41.2-7.77,2.63-9.19,6.15-18.8,7.74-28.44,1.58-9.62,2.97-19.5,4.14-29.06.44-3.63,1.37-15.99,2.08-21.06,0-.61.07-1.02.19-1.17-.06.32-.12.72-.19,1.17-.05,3.65,1.75,14.65,3.57,21.64,1.22,4.66.17,16.94-1.48,27.45-1.65,10.56-6.65,18.31-7.59,35.51-.75,13.7.44,27.85,1.68,41.6.93,10.33,2.87,20.69,5.03,30.73.81,3.79.46,8,.29,11.89-.15,3.58.37,7.24.15,10.75-.43,6.88-2.95,13.83-2.85,20.82.22,15.33,3.31,31.45,5.51,46.83.61,4.25,2.73,9.92,1.66,13.49-.95,3.17-4.54,6.53-6.32,9.97-1.2,2.31-4.47,3.84-6.53,5.23-1.31.88-2.48,2.07-3.7,3.05-.53.42-2.35,1.5-2.91,2.32-.76,1.13-.22,1.66-.07,1.67-.76.69-.74,1.93-.09,2.01-.41,1.11.22,1.77.9,1.64-.46.92.52,1.89,1.43,1.6.51,1.9,3.17,1.49,4.48.82.2,2.1,3.09,2.55,4.69,2.26,1.92-.34,3.73-.92,5.31-2.15.68-.53,1.57-2.07,1.96-2.4,1.24-1.05,3.07-1.56,4.32-2.68,1.13-1.02,1.5-2.75,2.25-3.88.76-1.13,2.42-2.42,3.86-2.64,1.98-.31,4.61-1.01,5.55-3.11.91-2.03.6-4.84.1-6.97-.37-1.56-1.05-3.23-1.03-4.78,0-.53.42-1.91.2-3.4-.24-1.64-1.06-2.89-1.29-4.14-.38-2-.39-4.09-.42-6.13-.07-5.69,1.64-11.62,2.68-17.19,1.36-7.27,2.91-14.66,3.23-22.02.2-4.62.05-9.25-.46-13.87-.28-2.49-.87-5.13-.57-7.59.83-6.92,4.78-13.65,5.75-20.67.93-6.8-.27-13.8.32-20.63.67-7.83,1.92-15.75,3.14-23.57.72-4.55,1.45-9.12,2.47-13.62.35-1.53.84-7.8,1.89-8.74.05-.04.35.09.65.08.32,0,.66-.15.71-.11,1.09.9,1.57,7.22,1.92,8.77,1.02,4.5,1.76,9.06,2.47,13.62,1.22,7.82,2.44,15.71,3.14,23.57.62,6.86-.62,13.83.32,20.63.96,7.02,4.92,13.75,5.75,20.67.29,2.46-.29,5.1-.57,7.59-.52,4.62-.67,9.25-.46,13.87.33,7.35,1.87,14.75,3.23,22.02,1.04,5.57,2.74,11.5,2.68,17.19-.03,2.04-.04,4.13-.42,6.13-.24,1.25-1.05,2.49-1.3,4.14-.22,1.49.2,2.87.21,3.4.02,1.55-.67,3.24-1.03,4.78-.49,2.16-.87,5.01.09,6.97,1,2.02,3.45,2.77,5.55,3.11,1.44.23,3.1,1.52,3.86,2.64.75,1.13,1.12,2.86,2.25,3.88,1.25,1.12,3.08,1.64,4.32,2.68.39.33,1.28,1.87,1.96,2.4,1.59,1.23,3.44,1.87,5.32,2.15,1.59.24,4.48-.09,4.69-2.26,1.33.68,3.96,1.08,4.48-.82.91.29,1.89-.68,1.43-1.6.68.13,1.31-.52.89-1.64.66-.08.68-1.32-.09-2.01.15-.02.69-.54-.07-1.67-.55-.82-2.38-1.9-2.91-2.32-1.22-.97-2.39-2.16-3.7-3.05-2.13-1.44-5.29-2.99-6.53-5.23-1.82-3.3-5.38-6.8-6.32-9.97-1.05-3.54,1.05-9.26,1.66-13.49,2.2-15.37,5.31-31.48,5.51-46.83.09-7.01-2.42-13.93-2.85-20.82-.22-3.51.29-7.18.15-10.75-.15-3.88-.52-8.1.3-11.89,2.15-10.04,4.1-20.4,5.03-30.73,1.24-13.75,1.97-27.89,1.68-41.6-.42-19.41-5.87-24.99-7.59-35.51-1.71-10.45-2.28-22.59-1.48-27.45,1.29-7.86,2.67-18.5,2.07-23.08.44,1.94,3.23,18.44,3.7,22.5,1.12,9.64,2.56,19.43,4.14,29.06,1.59,9.64,5.2,19.3,7.74,28.44.65,2.35.85,5.49.2,7.77-.55,1.94-2.27,3.7-3.45,5.36-1.42,1.99-2.41,5.05-2.73,7.45-.29,2.31.34,5.06-.13,7.22-.17.8-.46,2.58-.2,3.52.26.93-.47,3.67-.13,4.32.33.65,1.14,1.13,1.79.87,1.75-.71,2.91-3.8,3.06-5.69.11-1.44,0-3.06.2-4.52.11-.84,1.26-1.93,1.46-1.93,1.56.03,2.1,3.62,2,4.68-.22,2.37-.03,5.33-1.27,7.45-.86,1.47-3.99,2.91-4.92,4.85-.59,1.23.01,3.06.2,3.04,2.47-.14,7.39-3.34,9.76-5.36,2.69-2.28,5.42-8.9,5.98-12.67.75-5.05-1.23-11.19-1.19-16.41Z"
+  }));
+};
+var MotherSVG = function MotherSVG() {
+  return /*#__PURE__*/React.createElement("svg", {
+    id: "Capa_2",
+    "data-name": "Capa 2",
+    xmlns: "http://www.w3.org/2000/svg",
+    viewBox: "0 0 137.87 395.28",
+    className: "w-full h-full object-contain"
+  }, /*#__PURE__*/React.createElement("path", {
+    fill: "#192f36",
+    d: "M125.98,219.07c-.73-2.11-1.11-4.21-1.28-4.77-.42-1.36-.03-1.78-.29-2.88-.18-.8-.25-1.19-.81-2.32-.13-.26,0-7.78-.15-10.45-.37-3.63-.65-14.16-1.28-23.38-.45-6.61-1.24-12.55-1.66-14.82-1.1-5.96-2.85-12.06-3.2-16.1-.49-5.64-.92-13.17-.32-21.54.61-8.56-.76-28.58-7.82-36.48-3.64-4.07-10.73-6.08-14.17-6.62-6.03-.95-10.16-2.65-12.08-5.88-.46-.77-1-3.02-1.32-5.15,7.08-1.03,13.74-3.66,18.58-9.51-7.19-1.2-7.99-8.18-7.51-13.45.48-5.27-.18-15.31-2.44-19.93-4.27-8.73-17.62-12.4-25.53-8.56-6.71-1.2-10.16,3.39-13.04,6.99s-11.4,24-7.1,33.52c3.53,7.82,10.51,9.83,13.19,10.22.46.07,1.02.15,1.68.25-.19,2.58-7.56,10.56-13.59,11.51-3.44.54-10.53,2.56-14.17,6.62-7.06,7.9-8.43,27.92-7.82,36.48.6,8.37.17,15.9-.32,21.54-.35,4.03-2.1,10.14-3.2,16.1-.43,2.3-1.22,8.39-1.68,15.12-.62,9.16-.89,19.49-1.26,23.08-.15,2.67-.02,10.19-.15,10.45-.56,1.13-.63,1.52-.81,2.32-.25,1.1.13,1.52-.29,2.88-.17.56-.55,2.66-1.28,4.77-1.04,3.01-2.17,6.25-2.17,6.86,0,1.95,1.32,8.79,2.61,10.47,1.18,1.54,7.04,5.04,7.87,5.04s1.26-.84,1.26-.84c0,0,1.44.5,1.68-.52.31-1.37-1.36-2.21-1.99-2.73-.63-.52-2.95-1.75-3.79-3.43-.84-1.68-.62-8.13.33-8.3,1.5-.28.74,3.04.84,4.3.1,1.26.25,4.41,2.2,4.51,2.84.15,1.78-6.18,1.78-7.86s1-3.78,1.15-5.24c.31-2.93-.82-6.08-.82-8.6,0-.68.27-3.7,1.36-7.82,1.43-6,5-20.35,7.72-32.23,1.93-8.45,3.44-15.65,3.44-17.71,0-3.7.76-9.74,1.11-13.56.22-2.36.31-7.62.6-9.99.41,3.03,1.81,3.95,3.32,5.04.04,1.68-.14,3.26.12,6.07.38,4.14.29,7.08-.48,12.7-.54,3.91-2.97,7.43-3.96,10.28-2.41,6.95-4.17,14.43-4.93,19.08-1.42,8.69-2.29,12.54-2.79,15.55-.5,3.01-1.15,14.31-1.13,21.59.04,23.15,8.86,51.79,8.99,53.55.13,1.76-.38,5.39-.25,7.65.13,2.26,1,6.4,1,8.53s-3.77,10.51-3.77,17.93c0,28.39,6.87,53.11,7,55.99.13,2.88-.49,4.62-.65,5.7-.15,1.07-.76,3.13-.53,4.44-1.99,3.83-7.35,9.66-8.88,10.43-1.53.77-2.45,1.81-2.85,2.69-.17.38,0,.9.3,1.1-.4,1.15.48,1.69,1.04,1.59-.01.52.34.89.61,1.03,1.06.55,1.76-.36,1.76-.36,0,0-.1.87,1.07,1.47,1.07.55,2.52-.63,2.52-.63,0,0-.67,1.31.83,2.11,1.12.59,2.99.38,4.46-.27,2.36-1.03,4.09-3.26,4.29-3.45.36-.33,1.79-.66,2.78-1.53,1.58-1.4,1.38-2.26,1.9-2.84.32-.35,2.8-.4,4.59-2.2,1.31-1.32.79-4.2.51-5.28-.47-1.82-.64-3.93-.64-4.55s-.04-2.58-.11-3.8c-.08-1.23-.79-3.7-.9-7-.1-2.89,6.92-32.93,6.92-47.73,0-5.65-1.74-8.65-1.61-12.41.13-3.76,3.64-12.29,4.26-20.19.63-7.9-.87-9.91-.62-13.79.13-2.08,2.23-13.73,3.45-24.76,1.05-9.55,1.57-15.93,1.68-17.97.19-3.36.25-6.19.29-8,.31.07.56.11.8.12h0s0,0,0,0h0s0,0,0,0c.24,0,.49-.05.8-.12.04,1.81.1,4.64.29,8,.12,2.06.66,8.66,1.73,18.35,1.21,10.92,3.27,22.32,3.41,24.38.25,3.89-1.24,5.89-.62,13.79.63,7.9,4.14,16.43,4.26,20.19.13,3.76-1.61,6.77-1.61,12.41,0,14.8,7.01,44.84,6.92,47.73-.11,3.3-.83,5.77-.9,7-.08,1.23-.11,3.19-.11,3.8s-.17,2.72-.64,4.55c-.28,1.08-.8,3.96.51,5.28,1.79,1.8,4.27,1.85,4.59,2.2.52.58.32,1.44,1.9,2.84.99.87,2.41,1.19,2.78,1.53.21.19,1.94,2.41,4.29,3.45,1.47.65,3.35.86,4.46.27,1.5-.79.83-2.11.83-2.11,0,0,1.46,1.18,2.52.63,1.16-.6,1.07-1.47,1.07-1.47,0,0,.7.91,1.76.36.27-.14.63-.51.61-1.03.56.1,1.44-.44,1.04-1.59.3-.21.48-.72.3-1.1-.4-.88-1.32-1.92-2.85-2.69-1.53-.77-6.89-6.59-8.88-10.43.23-1.3-.37-3.36-.53-4.44-.15-1.07-.77-2.81-.65-5.7.13-2.88,7-27.6,7-55.99,0-7.43-3.77-15.8-3.77-17.93s.88-6.27,1-8.53c.13-2.26-.38-5.89-.25-7.65.13-1.76,8.94-30.39,8.99-53.55.01-7.27-.63-18.58-1.13-21.59-.5-3.01-1.37-6.86-2.79-15.55-.76-4.65-2.52-12.13-4.93-19.08-.99-2.85-3.42-6.37-3.96-10.28-.77-5.63-.86-8.56-.48-12.7.26-2.81.08-4.39.12-6.07,1.51-1.09,2.92-2.01,3.32-5.04.29,2.37.38,7.63.6,9.99.35,3.82.95,9.86.95,13.56,0,2.38,2,11.59,4.35,21.68,2.56,10.95,5.85,22.92,7.12,28.27,1.09,4.13,1.51,7.14,1.51,7.82,0,2.52-1.46,5.66-1.14,8.6.16,1.46,1.15,3.56,1.15,5.24s-1.06,8.01,1.78,7.86c1.95-.1,2.09-3.25,2.2-4.51.1-1.26-.66-4.58.84-4.3.95.18,1.17,6.62.33,8.3-.84,1.68-3.16,2.91-3.79,3.43-.63.52-2.31,1.36-1.99,2.73.23,1.02,1.68.52,1.68.52,0,0,.42.84,1.26.84s6.69-3.5,7.87-5.04c1.29-1.68,2.61-8.52,2.61-10.47,0-.62-1.13-3.86-2.17-6.86Z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#192f36",
+    d: "M125.98,219.07c-.73-2.11-1.11-4.21-1.28-4.77-.42-1.36-.03-1.78-.29-2.88-.18-.8-.25-1.19-.81-2.32-.13-.26,0-7.78-.15-10.45-.37-3.63-.65-14.16-1.28-23.38-.45-6.61-1.24-12.55-1.66-14.82-1.1-5.96-2.85-12.06-3.2-16.1-.49-5.64-.92-13.17-.32-21.54.61-8.56-.76-28.58-7.82-36.48-3.64-4.07-10.73-6.08-14.17-6.62-6.03-.95-10.16-2.65-12.08-5.88-.46-.77-1-3.02-1.32-5.15,7.08-1.03,13.74-3.66,18.58-9.51-7.19-1.2-7.99-8.18-7.51-13.45.48-5.27-.18-15.31-2.44-19.93-3.35-6.85-12.3-10.58-19.82-10.02v203.51h0s0,0,0,0c.24,0,.49-.05.8-.12.04,1.81.1,4.64.29,8,.12,2.06.66,8.66,1.73,18.35,1.21,10.92,3.27,22.32,3.41,24.38.25,3.89-1.24,5.89-.62,13.79.63,7.9,4.14,16.43,4.26,20.19.13,3.76-1.61,6.77-1.61,12.41,0,14.8,7.01,44.84,6.92,47.73-.11,3.3-.83,5.77-.9,7-.08,1.23-.11,3.19-.11,3.8s-.17,2.72-.64,4.55c-.28,1.08-.8,3.96.51,5.28,1.79,1.8,4.27,1.85,4.59,2.2.52.58.32,1.44,1.9,2.84.99.87,2.41,1.19,2.78,1.53.21.19,1.94,2.41,4.29,3.45,1.47.65,3.35.86,4.46.27,1.5-.79.83-2.11.83-2.11,0,0,1.46,1.18,2.52.63,1.16-.6,1.07-1.47,1.07-1.47,0,0,.7.91,1.76.36.27-.14.63-.51.61-1.03.56.1,1.44-.44,1.04-1.59.3-.21.48-.72.3-1.1-.4-.88-1.32-1.92-2.85-2.69-1.53-.77-6.89-6.59-8.88-10.43.23-1.3-.37-3.36-.53-4.44-.15-1.07-.77-2.81-.65-5.7.13-2.88,7-27.6,7-55.99,0-7.43-3.77-15.8-3.77-17.93s.88-6.27,1-8.53c.13-2.26-.38-5.89-.25-7.65.13-1.76,8.94-30.39,8.99-53.55.01-7.27-.63-18.58-1.13-21.59-.5-3.01-1.37-6.86-2.79-15.55-.76-4.65-2.52-12.13-4.93-19.08-.99-2.85-3.42-6.37-3.96-10.28-.77-5.63-.86-8.56-.48-12.7.26-2.81.08-4.39.12-6.07,1.51-1.09,2.92-2.01,3.32-5.04.29,2.37.38,7.63.6,9.99.35,3.82.95,9.86.95,13.56,0,2.38,2,11.59,4.35,21.68,2.56,10.95,5.85,22.92,7.12,28.27,1.09,4.13,1.51,7.14,1.51,7.82,0,2.52-1.46,5.66-1.14,8.6.16,1.46,1.15,3.56,1.15,5.24s-1.06,8.01,1.78,7.86c1.95-.1,2.09-3.25,2.2-4.51.1-1.26-.66-4.58.84-4.3.95.18,1.17,6.62.33,8.3-.84,1.68-3.16,2.91-3.79,3.43-.63.52-2.31,1.36-1.99,2.73.23,1.02,1.68.52,1.68.52,0,0,.42.84,1.26.84s6.69-3.5,7.87-5.04c1.29-1.68,2.61-8.52,2.61-10.47,0-.62-1.13-3.86-2.17-6.86Z"
+  }));
+};
+function ValidationBadge(_ref) {
+  var isValid = _ref.isValid;
+  if (isValid === null) return null;
+  return /*#__PURE__*/React.createElement("div", {
+    style: {
+      position: 'absolute',
+      top: '-11px',
+      right: '-11px',
+      zIndex: 10
+    }
+  }, isValid ? /*#__PURE__*/React.createElement("div", {
+    style: {
+      background: '#22c55e',
+      borderRadius: '9999px',
+      padding: '5px',
+      border: '2px solid white',
+      boxShadow: '0 2px 4px rgba(0,0,0,0.1)'
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    style: {
+      color: 'white'
+    }
+  }, /*#__PURE__*/React.createElement(CheckIcon, null))) : /*#__PURE__*/React.createElement("div", {
+    style: {
+      background: '#ef4444',
+      borderRadius: '9999px',
+      padding: '5px',
+      border: '2px solid white',
+      boxShadow: '0 2px 4px rgba(0,0,0,0.1)'
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    style: {
+      color: 'white'
+    }
+  }, /*#__PURE__*/React.createElement(XIcon, null))));
+}
+function ProgenitorSection(_ref2) {
+  var title = _ref2.title,
+    subtitle = _ref2.subtitle,
+    SVGComponent = _ref2.SVGComponent,
+    state = _ref2.state,
+    setState = _ref2.setState,
+    validation = _ref2.validation,
+    accentColor = _ref2.accentColor;
+  var getInputClass = function getInputClass(isValid) {
+    var base = "w-full text-center border-2 rounded-sm p-1.5 font-bold text-base focus:outline-none transition-all relative";
+    if (isValid === true) return "".concat(base, " border-green-500 bg-green-50 text-green-700");
+    if (isValid === false) return "".concat(base, " border-red-500 bg-red-50 text-red-700");
+    return "".concat(base, " border-[#192e35]/20 bg-gray-50 focus:border-[#192e35]");
+  };
+  var labelBoxClass = "bg-[#192e35] text-white px-6 py-1.5 text-[14px] font-bold tracking-[0.2em] font-sans uppercase inline-block shadow-sm mb-2 rounded-sm";
+  return /*#__PURE__*/React.createElement("div", {
+    className: "flex flex-col items-center flex-1"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "flex flex-col items-center mb-0 w-full"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: labelBoxClass
+  }, title), /*#__PURE__*/React.createElement("div", {
+    className: "text-[13px] font-black tracking-widest mb-1.5",
+    style: {
+      color: accentColor
+    }
+  }, subtitle), /*#__PURE__*/React.createElement("div", {
+    className: "w-44 h-44 flex items-center justify-center"
+  }, /*#__PURE__*/React.createElement(SVGComponent, null))), /*#__PURE__*/React.createElement("div", {
+    className: "w-full max-w-[180px] mb-4 -mt-1"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "flex flex-col items-center"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: labelBoxClass
+  }, "GENOTIPO"), /*#__PURE__*/React.createElement("div", {
+    className: "relative w-full"
+  }, /*#__PURE__*/React.createElement("input", {
+    type: "text",
+    value: state.genotype,
+    onChange: function onChange(e) {
+      return setState(_objectSpread(_objectSpread({}, state), {}, {
+        genotype: e.target.value
+      }));
+    },
+    className: getInputClass(validation.genotype),
+    placeholder: "..."
+  }), /*#__PURE__*/React.createElement(ValidationBadge, {
+    isValid: validation.genotype
+  })))), /*#__PURE__*/React.createElement("div", {
+    className: "flex flex-col items-center mb-4 w-full relative h-10"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "absolute top-[-15px] text-[10px] font-black uppercase tracking-widest opacity-30"
+  }, "Meiosis"), /*#__PURE__*/React.createElement("svg", {
+    width: "100%",
+    height: "100%",
+    viewBox: "0 0 100 40",
+    className: "overflow-visible"
+  }, /*#__PURE__*/React.createElement("path", {
+    d: "M 50 0 L 50 15 L 20 25 M 50 15 L 80 25",
+    fill: "none",
+    stroke: "#192e35",
+    strokeWidth: "1.5",
+    strokeDasharray: "4 2",
+    opacity: "0.3"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: "50",
+    cy: "15",
+    r: "1.5",
+    fill: "#192e35"
+  }))), /*#__PURE__*/React.createElement("div", {
+    className: "w-full flex flex-col items-center"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: labelBoxClass
+  }, "GAMETOS"), /*#__PURE__*/React.createElement("div", {
+    className: "flex items-center justify-center gap-4 w-full max-w-[280px]"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "relative flex-1"
+  }, /*#__PURE__*/React.createElement("input", {
+    type: "text",
+    value: state.gamete1,
+    onChange: function onChange(e) {
+      return setState(_objectSpread(_objectSpread({}, state), {}, {
+        gamete1: e.target.value
+      }));
+    },
+    className: getInputClass(validation.gamete1)
+  }), /*#__PURE__*/React.createElement(ValidationBadge, {
+    isValid: validation.gamete1
+  })), /*#__PURE__*/React.createElement("span", {
+    className: "font-black text-[#192e35] text-lg pb-0.5 italic opacity-40"
+  }, "y"), /*#__PURE__*/React.createElement("div", {
+    className: "relative flex-1"
+  }, /*#__PURE__*/React.createElement("input", {
+    type: "text",
+    value: state.gamete2,
+    onChange: function onChange(e) {
+      return setState(_objectSpread(_objectSpread({}, state), {}, {
+        gamete2: e.target.value
+      }));
+    },
+    className: getInputClass(validation.gamete2)
+  }), /*#__PURE__*/React.createElement(ValidationBadge, {
+    isValid: validation.gamete2
+  })))));
+}
+function App() {
+  var _useState = useState({
+      genotype: '',
+      gamete1: '',
+      gamete2: ''
+    }),
+    _useState2 = _slicedToArray(_useState, 2),
+    father = _useState2[0],
+    setFather = _useState2[1];
+  var _useState3 = useState({
+      genotype: '',
+      gamete1: '',
+      gamete2: ''
+    }),
+    _useState4 = _slicedToArray(_useState3, 2),
+    mother = _useState4[0],
+    setMother = _useState4[1];
+  var _useState5 = useState({
+      genotype: null,
+      gamete1: null,
+      gamete2: null
+    }),
+    _useState6 = _slicedToArray(_useState5, 2),
+    fatherValidation = _useState6[0],
+    setFatherValidation = _useState6[1];
+  var _useState7 = useState({
+      genotype: null,
+      gamete1: null,
+      gamete2: null
+    }),
+    _useState8 = _slicedToArray(_useState7, 2),
+    motherValidation = _useState8[0],
+    setMotherValidation = _useState8[1];
+  var correctFather = {
+    genotype: 'XcY',
+    gamete1: 'Xc',
+    gamete2: 'Y'
+  };
+  var correctMother = {
+    genotype: 'XCXc',
+    gamete1: 'XC',
+    gamete2: 'Xc'
+  };
+  var handleVerify = function handleVerify() {
+    setFatherValidation({
+      genotype: father.genotype.trim() === correctFather.genotype,
+      gamete1: father.gamete1.trim() === correctFather.gamete1,
+      gamete2: father.gamete2.trim() === correctFather.gamete2
+    });
+    setMotherValidation({
+      genotype: mother.genotype.trim() === correctMother.genotype,
+      gamete1: mother.gamete1.trim() === correctMother.gamete1,
+      gamete2: mother.gamete2.trim() === correctMother.gamete2
+    });
+  };
+  var handleRestart = function handleRestart() {
+    setFather({
+      genotype: '',
+      gamete1: '',
+      gamete2: ''
+    });
+    setMother({
+      genotype: '',
+      gamete1: '',
+      gamete2: ''
+    });
+    setFatherValidation({
+      genotype: null,
+      gamete1: null,
+      gamete2: null
+    });
+    setMotherValidation({
+      genotype: null,
+      gamete1: null,
+      gamete2: null
+    });
+  };
+  return /*#__PURE__*/React.createElement("div", {
+    className: "min-h-screen flex flex-col items-center p-5 bg-white overflow-visible"
+  }, /*#__PURE__*/React.createElement("header", {
+    className: "mb-4 text-center"
+  }, /*#__PURE__*/React.createElement("p", {
+    className: "text-[16px] font-bold uppercase tracking-[0.2em] opacity-60"
+  }, "Complet\xE1 los espacios en blanco seg\xFAn corresponda")), /*#__PURE__*/React.createElement("main", {
+    className: "w-full max-w-4xl flex gap-10 relative"
+  }, /*#__PURE__*/React.createElement(ProgenitorSection, {
+    title: "FENOTIPO",
+    subtitle: "PADRE",
+    SVGComponent: FatherSVG,
+    state: father,
+    setState: setFather,
+    validation: fatherValidation,
+    accentColor: "#192e35"
+  }), /*#__PURE__*/React.createElement(ProgenitorSection, {
+    title: "FENOTIPO",
+    subtitle: "MADRE",
+    SVGComponent: MotherSVG,
+    state: mother,
+    setState: setMother,
+    validation: motherValidation,
+    accentColor: "#b66eab"
+  })), /*#__PURE__*/React.createElement("footer", {
+    className: "mt-auto flex gap-6 items-center pt-2"
+  }, /*#__PURE__*/React.createElement("button", {
+    onClick: handleVerify,
+    className: "bg-[#b66eab] text-white px-8 py-2.5 rounded-sm font-bold uppercase tracking-widest hover:opacity-90 transition-all shadow-[0_4px_0_0_#94568a] active:translate-y-1 active:shadow-none"
+  }, "Verificar Respuestas"), /*#__PURE__*/React.createElement("button", {
+    onClick: handleRestart,
+    className: "text-[#192e35] px-4 py-1.5 rounded-sm font-bold uppercase tracking-widest flex items-center gap-2 hover:bg-gray-100 transition-all text-sm"
+  }, /*#__PURE__*/React.createElement(RotateIcon, null), "Reiniciar")));
+}
+var root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(/*#__PURE__*/React.createElement(App, null));
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJfUmVhY3QiLCJSZWFjdCIsInVzZVN0YXRlIiwiQ2hlY2tJY29uIiwiY3JlYXRlRWxlbWVudCIsIndpZHRoIiwiaGVpZ2h0Iiwidmlld0JveCIsImZpbGwiLCJzdHJva2UiLCJzdHJva2VXaWR0aCIsInN0cm9rZUxpbmVjYXAiLCJzdHJva2VMaW5lam9pbiIsInBvaW50cyIsIlhJY29uIiwieDEiLCJ5MSIsIngyIiwieTIiLCJSb3RhdGVJY29uIiwiZCIsIkZhdGhlclNWRyIsImlkIiwieG1sbnMiLCJjbGFzc05hbWUiLCJNb3RoZXJTVkciLCJWYWxpZGF0aW9uQmFkZ2UiLCJfcmVmIiwiaXNWYWxpZCIsInN0eWxlIiwicG9zaXRpb24iLCJ0b3AiLCJyaWdodCIsInpJbmRleCIsImJhY2tncm91bmQiLCJib3JkZXJSYWRpdXMiLCJwYWRkaW5nIiwiYm9yZGVyIiwiYm94U2hhZG93IiwiY29sb3IiLCJQcm9nZW5pdG9yU2VjdGlvbiIsIl9yZWYyIiwidGl0bGUiLCJzdWJ0aXRsZSIsIlNWR0NvbXBvbmVudCIsInN0YXRlIiwic2V0U3RhdGUiLCJ2YWxpZGF0aW9uIiwiYWNjZW50Q29sb3IiLCJnZXRJbnB1dENsYXNzIiwiYmFzZSIsImNvbmNhdCIsImxhYmVsQm94Q2xhc3MiLCJ0eXBlIiwidmFsdWUiLCJnZW5vdHlwZSIsIm9uQ2hhbmdlIiwiZSIsIl9vYmplY3RTcHJlYWQiLCJ0YXJnZXQiLCJwbGFjZWhvbGRlciIsInN0cm9rZURhc2hhcnJheSIsIm9wYWNpdHkiLCJjeCIsImN5IiwiciIsImdhbWV0ZTEiLCJnYW1ldGUyIiwiQXBwIiwiX3VzZVN0YXRlIiwiX3VzZVN0YXRlMiIsIl9zbGljZWRUb0FycmF5IiwiZmF0aGVyIiwic2V0RmF0aGVyIiwiX3VzZVN0YXRlMyIsIl91c2VTdGF0ZTQiLCJtb3RoZXIiLCJzZXRNb3RoZXIiLCJfdXNlU3RhdGU1IiwiX3VzZVN0YXRlNiIsImZhdGhlclZhbGlkYXRpb24iLCJzZXRGYXRoZXJWYWxpZGF0aW9uIiwiX3VzZVN0YXRlNyIsIl91c2VTdGF0ZTgiLCJtb3RoZXJWYWxpZGF0aW9uIiwic2V0TW90aGVyVmFsaWRhdGlvbiIsImNvcnJlY3RGYXRoZXIiLCJjb3JyZWN0TW90aGVyIiwiaGFuZGxlVmVyaWZ5IiwidHJpbSIsImhhbmRsZVJlc3RhcnQiLCJvbkNsaWNrIiwicm9vdCIsIlJlYWN0RE9NIiwiY3JlYXRlUm9vdCIsImRvY3VtZW50IiwiZ2V0RWxlbWVudEJ5SWQiLCJyZW5kZXIiXSwic291cmNlcyI6WyJJbmxpbmUgQmFiZWwgc2NyaXB0Il0sInNvdXJjZXNDb250ZW50IjpbIlxuICAgICAgICBjb25zdCB7IHVzZVN0YXRlIH0gPSBSZWFjdDtcblxuICAgICAgICBjb25zdCBDaGVja0ljb24gPSAoKSA9PiAoXG4gICAgICAgICAgICA8c3ZnIHdpZHRoPVwiMThcIiBoZWlnaHQ9XCIxOFwiIHZpZXdCb3g9XCIwIDAgMjQgMjRcIiBmaWxsPVwibm9uZVwiIHN0cm9rZT1cImN1cnJlbnRDb2xvclwiIHN0cm9rZVdpZHRoPVwiNFwiIHN0cm9rZUxpbmVjYXA9XCJyb3VuZFwiIHN0cm9rZUxpbmVqb2luPVwicm91bmRcIj48cG9seWxpbmUgcG9pbnRzPVwiMjAgNiA5IDE3IDQgMTJcIj48L3BvbHlsaW5lPjwvc3ZnPlxuICAgICAgICApO1xuXG4gICAgICAgIGNvbnN0IFhJY29uID0gKCkgPT4gKFxuICAgICAgICAgICAgPHN2ZyB3aWR0aD1cIjE4XCIgaGVpZ2h0PVwiMThcIiB2aWV3Qm94PVwiMCAwIDI0IDI0XCIgZmlsbD1cIm5vbmVcIiBzdHJva2U9XCJjdXJyZW50Q29sb3JcIiBzdHJva2VXaWR0aD1cIjRcIiBzdHJva2VMaW5lY2FwPVwicm91bmRcIiBzdHJva2VMaW5lam9pbj1cInJvdW5kXCI+PGxpbmUgeDE9XCIxOFwiIHkxPVwiNlwiIHgyPVwiNlwiIHkyPVwiMThcIj48L2xpbmU+PGxpbmUgeDE9XCI2XCIgeTE9XCI2XCIgeDI9XCIxOFwiIHkyPVwiMThcIj48L2xpbmU+PC9zdmc+XG4gICAgICAgICk7XG5cbiAgICAgICAgY29uc3QgUm90YXRlSWNvbiA9ICgpID0+IChcbiAgICAgICAgICAgIDxzdmcgd2lkdGg9XCIyMFwiIGhlaWdodD1cIjIwXCIgdmlld0JveD1cIjAgMCAyNCAyNFwiIGZpbGw9XCJub25lXCIgc3Ryb2tlPVwiY3VycmVudENvbG9yXCIgc3Ryb2tlV2lkdGg9XCIyXCIgc3Ryb2tlTGluZWNhcD1cInJvdW5kXCIgc3Ryb2tlTGluZWpvaW49XCJyb3VuZFwiPjxwb2x5bGluZSBwb2ludHM9XCIxIDQgMSAxMCA3IDEwXCI+PC9wb2x5bGluZT48cGF0aCBkPVwiTTMuNTEgMTVhOSA5IDAgMSAwIDIuMTMtOS4zNkwxIDEwXCI+PC9wYXRoPjwvc3ZnPlxuICAgICAgICApO1xuXG4gICAgICAgIGNvbnN0IEZhdGhlclNWRyA9ICgpID0+IChcbiAgICAgICAgICAgIDxzdmcgaWQ9XCJDYXBhXzJcIiBkYXRhLW5hbWU9XCJDYXBhIDJcIiB4bWxucz1cImh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnXCIgdmlld0JveD1cIjAgMCAxMzcuODcgNDM0Ljc3XCIgY2xhc3NOYW1lPVwidy1mdWxsIGgtZnVsbCBvYmplY3QtY29udGFpblwiPlxuICAgICAgICAgICAgICAgIDxwYXRoIGZpbGw9XCIjMTkyZjM2XCIgZD1cIk0xMzEuMzksMjMxLjkyYy4wMS0xLjgyLjM0LTMuOC40Ny01LjYyLjExLTEuNjEtLjQtMy4zMi0uNDctNC45Mi0uMzMtNy4zNS0uMjYtMTUuMjMtLjQzLTIyLjg0LS4xOS04LjA5LjM0LTE2Ljc0LS45NS0yNC41OC0uNjEtMy42OS0yLjA3LTcuNDMtMi43OC0xMS4xLTIuMS0xMC45OC0xLjAzLTM4LjYxLTEuMDQtNTAsMC03LjUyLTEuMzctMTYuMjEtNS41NS0yMi41Ny0yLjkzLTQuNDYtOC40My03LjA5LTEzLjUzLTguMjMtNC4xOC0xLjE3LTguMzMtMi40Mi0xMi40NS0zLjc4LTMuNDgtMS4xNS0xMS43Mi0yLjc0LTEzLjEtNS44NC0xLjUyLTMuNDItLjktNy42Mi0uNzktMTEuOTIsMS45OS0yLjY4LDMuNDEtNS42NSw0LjEtOC4wNywyLjIzLS4xNiwxLjc4LTQuMDYsMi4xLTUuMDUuMzItLjk5LDIuMTEtNi43NSwxLjU0LTcuNTUtLjU4LS44LTEuMjQtLjAzLTEuMjQtLjAzLDAsMCwxLjIzLTEwLjU0LTEuMTQtMTYuNjgtMS44NS00LjgtNy41Ny0xMS4zOC0xNy44Ni0xMS4zOGgtLjAyYy0xMC4yOSwwLTE2LjAxLDYuNTktMTcuODYsMTEuMzgtMi4zNiw2LjE0LTEuMTMsMTYuNjgtMS4xMywxNi42OCwwLDAtLjY3LS43OC0xLjI1LjAzLS41OC44LDEuMjIsNi41NiwxLjU0LDcuNTUuMzIuOTktLjEzLDQuODksMi4xLDUuMDUuNzgsMi43NiwyLjU0LDYuMjYsNS4wMSw5LjIyLjA4LDMuOTIuNDYsNy42NC0uOTQsMTAuNzctMS4zNywzLjA2LTkuMzQsNC42OC0xMi43OCw1Ljg0LTQuMDEsMS4zNS04LjA2LDIuNjEtMTIuMTMsMy43OC01LjEsMS4xMy0xMC42MSwzLjc3LTEzLjUzLDguMjMtNC4xOCw2LjM2LTUuNTUsMTUuMDUtNS41NSwyMi41Ny0uMDEsMTEuMzgsMS4wNiwzOS4wMi0xLjA0LDUwLS43LDMuNjctMi4xNyw3LjQxLTIuNzgsMTEuMS0xLjI5LDcuODUtLjc3LDE2LjQ5LS45NSwyNC41OC0uMTgsNy42MS0uMTEsMTUuNDgtLjQ0LDIyLjg0LS4wNywxLjYtLjU4LDMuMzEtLjQ3LDQuOTIuMTMsMS44Mi40NSwzLjguNDcsNS42Mi4wMyw1LjIyLTEuOTQsMTEuMzYtMS4yLDE2LjQxLjU2LDMuNzcsMy4yOSwxMC4zOCw1Ljk4LDEyLjY3LDIuMzgsMi4wMiw3LjMxLDUuMjIsOS43Nyw1LjM2LjE5LjAxLjc5LTEuODIuMi0zLjA0LS45My0xLjkzLTQuMDktMy4zOS00LjkyLTQuODUtLjg0LTEuNDctLjkyLTMuMzgtMS4wNy01LjAzLS4xMy0xLjUtLjUyLTMuMDYsMC00LjU4LjIzLS42Ny45MS0yLjU0LDEuNzktMi41NC4yLDAsMS4zNSwxLjA5LDEuNDYsMS45My4xOSwxLjQ2LjA4LDMuMDguMiw0LjUyLjE1LDEuNzksMS4yOCw1LjQyLDMuMDYsNS42OSwxLjM5LjIxLDEuNDYtLjIyLDEuNzktLjg3cy0uNC0zLjM5LS4xMy00LjMyLS4wMy0yLjcxLS4yLTMuNTJjLS40Ny0yLjE1LjE2LTQuOTEtLjEzLTcuMjItLjMxLTIuNC0xLjMxLTUuNDctMi43Mi03LjQ1LTEuMTktMS42Ni0yLjkyLTMuNDMtMy40NS01LjM2LS42My0yLjI3LS40Ny01LjQxLjItNy43NywyLjYzLTkuMTksNi4xNS0xOC44LDcuNzQtMjguNDQsMS41OC05LjYyLDIuOTctMTkuNSw0LjE0LTI5LjA2LjQ0LTMuNjMsMS4zNy0xNS45OSwyLjA4LTIxLjA2LDAtLjYxLjA3LTEuMDIuMTktMS4xNy0uMDYuMzItLjEyLjcyLS4xOSwxLjE3LS4wNSwzLjY1LDEuNzUsMTQuNjUsMy41NywyMS42NCwxLjIyLDQuNjYuMTcsMTYuOTQtMS40OCwyNy40NS0xLjY1LDEwLjU2LTYuNjUsMTguMzEtNy41OSwzNS41MS0uNzUsMTMuNy40NCwyNy44NSwxLjY4LDQxLjYuOTMsMTAuMzMsMi44NywyMC42OSw1LjAzLDMwLjczLjgxLDMuNzkuNDYsOCwuMjksMTEuODktLjE1LDMuNTguMzcsNy4yNC4xNSwxMC43NS0uNDMsNi44OC0yLjk1LDEzLjgzLTIuODUsMjAuODIuMjIsMTUuMzMsMy4zMSwzMS40NSw1LjUxLDQ2LjgzLjYxLDQuMjUsMi43Myw5LjkyLDEuNjYsMTMuNDktLjk1LDMuMTctNC41NCw2LjUzLTYuMzIsOS45Ny0xLjIsMi4zMS00LjQ3LDMuODQtNi41Myw1LjIzLTEuMzEuODgtMi40OCwyLjA3LTMuNywzLjA1LS41My40Mi0yLjM1LDEuNS0yLjkxLDIuMzItLjc2LDEuMTMtLjIyLDEuNjYtLjA3LDEuNjctLjc2LjY5LS43NCwxLjkzLS4wOSwyLjAxLS40MSwxLjExLjIyLDEuNzcuOSwxLjY0LS40Ni45Mi41MiwxLjg5LDEuNDMsMS42LjUxLDEuOSwzLjE3LDEuNDksNC40OC44Mi4yLDIuMSwzLjA5LDIuNTUsNC42OSwyLjI2LDEuOTItLjM0LDMuNzMtLjkyLDUuMzEtMi4xNS42OC0uNTMsMS41Ny0yLjA3LDEuOTYtMi40LDEuMjQtMS4wNSwzLjA3LTEuNTYsNC4zMi0yLjY4LDEuMTMtMS4wMiwxLjUtMi43NSwyLjI1LTMuODguNzYtMS4xMywyLjQyLTIuNDIsMy44Ni0yLjY0LDEuOTgtLjMxLDQuNjEtMS4wMSw1LjU1LTMuMTEuOTEtMi4wMy42LTQuODQuMS02Ljk3LS4zNy0xLjU2LTEuMDUtMy4yMy0xLjAzLTQuNzgsMC0uNTMuNDItMS45MS4yLTMuNC0uMjQtMS42NC0xLjA2LTIuODktMS4yOS00LjE0LS4zOC0yLS4zOS00LjA5LS40Mi02LjEzLS4wNy01LjY5LDEuNjQtMTEuNjIsMi42OC0xNy4xOSwxLjM2LTcuMjcsMi45MS0xNC42NiwzLjIzLTIyLjAyLjItNC42Mi4wNS05LjI1LS40Ni0xMy44Ny0uMjgtMi40OS0uODctNS4xMy0uNTctNy41OS44My02LjkyLDQuNzgtMTMuNjUsNS43NS0yMC42Ny45My02LjgtLjI3LTEzLjguMzItMjAuNjMuNjctNy44MywxLjkyLTE1Ljc1LDMuMTQtMjMuNTcuNzItNC41NSwxLjQ1LTkuMTIsMi40Ny0xMy42Mi4zNS0xLjUzLjg0LTcuOCwxLjg5LTguNzQuMDUtLjA0LjM1LjA5LjY1LjA4LjMyLDAsLjY2LS4xNS43MS0uMTEsMS4wOS45LDEuNTcsNy4yMiwxLjkyLDguNzcsMS4wMiw0LjUsMS43Niw5LjA2LDIuNDcsMTMuNjIsMS4yMiw3LjgyLDIuNDQsMTUuNzEsMy4xNCwyMy41Ny42Miw2Ljg2LS42MiwxMy44My4zMiwyMC42My45Niw3LjAyLDQuOTIsMTMuNzUsNS43NSwyMC42Ny4yOSwyLjQ2LS4yOSw1LjEtLjU3LDcuNTktLjUyLDQuNjItLjY3LDkuMjUtLjQ2LDEzLjg3LjMzLDcuMzUsMS44NywxNC43NSwzLjIzLDIyLjAyLDEuMDQsNS41NywyLjc0LDExLjUsMi42OCwxNy4xOS0uMDMsMi4wNC0uMDQsNC4xMy0uNDIsNi4xMy0uMjQsMS4yNS0xLjA1LDIuNDktMS4zLDQuMTQtLjIyLDEuNDkuMiwyLjg3LjIxLDMuNC4wMiwxLjU1LS42NywzLjI0LTEuMDMsNC43OC0uNDksMi4xNi0uODcsNS4wMS4wOSw2Ljk3LDEsMi4wMiwzLjQ1LDIuNzcsNS41NSwzLjExLDEuNDQuMjMsMy4xLDEuNTIsMy44NiwyLjY0Ljc1LDEuMTMsMS4xMiwyLjg2LDIuMjUsMy44OCwxLjI1LDEuMTIsMy4wOCwxLjY0LDQuMzIsMi42OC4zOS4zMywxLjI4LDEuODcsMS45NiwyLjQsMS41OSwxLjIzLDMuNDQsMS44Nyw1LjMyLDIuMTUsMS41OS4yNCw0LjQ4LS4wOSw0LjY5LTIuMjYsMS4zMy42OCwzLjk2LDEuMDgsNC40OC0uODIuOTEuMjksMS44OS0uNjgsMS40My0xLjYuNjguMTMsMS4zMS0uNTIuODktMS42NC42Ni0uMDguNjgtMS4zMi0uMDktMi4wMS4xNS0uMDIuNjktLjU0LS4wNy0xLjY3LS41NS0uODItMi4zOC0xLjktMi45MS0yLjMyLTEuMjItLjk3LTIuMzktMi4xNi0zLjctMy4wNS0yLjEzLTEuNDQtNS4yOS0yLjk5LTYuNTMtNS4yMy0xLjgyLTMuMy01LjM4LTYuOC02LjMyLTkuOTctMS4wNS0zLjU0LDEuMDUtOS4yNiwxLjY2LTEzLjQ5LDIuMi0xNS4zNyw1LjMxLTMxLjQ4LDUuNTEtNDYuODMuMDktNy4wMS0yLjQyLTEzLjkzLTIuODUtMjAuODItLjIyLTMuNTEuMjktNy4xOC4xNS0xMC43NS0uMTUtMy44OC0uNTItOC4xLjMtMTEuODksMi4xNS0xMC4wNCw0LjEtMjAuNCw1LjAzLTMwLjczLDEuMjQtMTMuNzUsMS45Ny0yNy44OSwxLjY4LTQxLjYtLjQyLTE5LjQxLTUuODctMjQuOTktNy41OS0zNS41MS0xLjcxLTEwLjQ1LTIuMjgtMjIuNTktMS40OC0yNy40NSwxLjI5LTcuODYsMi42Ny0xOC41LDIuMDctMjMuMDguNDQsMS45NCwzLjIzLDE4LjQ0LDMuNywyMi41LDEuMTIsOS42NCwyLjU2LDE5LjQzLDQuMTQsMjkuMDYsMS41OSw5LjY0LDUuMiwxOS4zLDcuNzQsMjguNDQuNjUsMi4zNS44NSw1LjQ5LjIsNy43Ny0uNTUsMS45NC0yLjI3LDMuNy0zLjQ1LDUuMzYtMS40MiwxLjk5LTIuNDEsNS4wNS0yLjczLDcuNDUtLjI5LDIuMzEuMzQsNS4wNi0uMTMsNy4yMi0uMTcuOC0uNDYsMi41OC0uMiwzLjUyLjI2LjkzLS40NywzLjY3LS4xMyw0LjMyLjMzLjY1LDEuMTQsMS4xMywxLjc5Ljg3LDEuNzUtLjcxLDIuOTEtMy44LDMuMDYtNS42OS4xMS0xLjQ0LDAtMy4wNi4yLTQuNTIuMTEtLjg0LDEuMjYtMS45MywxLjQ2LTEuOTMsMS41Ni4wMywyLjEsMy42MiwyLDQuNjgtLjIyLDIuMzctLjAzLDUuMzMtMS4yNyw3LjQ1LS44NiwxLjQ3LTMuOTksMi45MS00LjkyLDQuODUtLjU5LDEuMjMuMDEsMy4wNi4yLDMuMDQsMi40Ny0uMTQsNy4zOS0zLjM0LDkuNzYtNS4zNiwyLjY5LTIuMjgsNS40Mi04LjksNS45OC0xMi42Ny43NS01LjA1LTEuMjMtMTEuMTktMS4xOS0xNi40MVpcIi8+XG4gICAgICAgICAgICA8L3N2Zz5cbiAgICAgICAgKTtcblxuICAgICAgICBjb25zdCBNb3RoZXJTVkcgPSAoKSA9PiAoXG4gICAgICAgICAgICA8c3ZnIGlkPVwiQ2FwYV8yXCIgZGF0YS1uYW1lPVwiQ2FwYSAyXCIgeG1sbnM9XCJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Z1wiIHZpZXdCb3g9XCIwIDAgMTM3Ljg3IDM5NS4yOFwiIGNsYXNzTmFtZT1cInctZnVsbCBoLWZ1bGwgb2JqZWN0LWNvbnRhaW5cIj5cbiAgICAgICAgICAgICAgICA8cGF0aCBmaWxsPVwiIzE5MmYzNlwiIGQ9XCJNMTI1Ljk4LDIxOS4wN2MtLjczLTIuMTEtMS4xMS00LjIxLTEuMjgtNC43Ny0uNDItMS4zNi0uMDMtMS43OC0uMjktMi44OC0uMTgtLjgtLjI1LTEuMTktLjgxLTIuMzItLjEzLS4yNiwwLTcuNzgtLjE1LTEwLjQ1LS4zNy0zLjYzLS42NS0xNC4xNi0xLjI4LTIzLjM4LS40NS02LjYxLTEuMjQtMTIuNTUtMS42Ni0xNC44Mi0xLjEtNS45Ni0yLjg1LTEyLjA2LTMuMi0xNi4xLS40OS01LjY0LS45Mi0xMy4xNy0uMzItMjEuNTQuNjEtOC41Ni0uNzYtMjguNTgtNy44Mi0zNi40OC0zLjY0LTQuMDctMTAuNzMtNi4wOC0xNC4xNy02LjYyLTYuMDMtLjk1LTEwLjE2LTIuNjUtMTIuMDgtNS44OC0uNDYtLjc3LTEtMy4wMi0xLjMyLTUuMTUsNy4wOC0xLjAzLDEzLjc0LTMuNjYsMTguNTgtOS41MS03LjE5LTEuMi03Ljk5LTguMTgtNy41MS0xMy40NS40OC01LjI3LS4xOC0xNS4zMS0yLjQ0LTE5LjkzLTQuMjctOC43My0xNy42Mi0xMi40LTI1LjUzLTguNTYtNi43MS0xLjItMTAuMTYsMy4zOS0xMy4wNCw2Ljk5cy0xMS40LDI0LTcuMSwzMy41MmMzLjUzLDcuODIsMTAuNTEsOS44MywxMy4xOSwxMC4yMi40Ni4wNywxLjAyLjE1LDEuNjguMjUtLjE5LDIuNTgtNy41NiwxMC41Ni0xMy41OSwxMS41MS0zLjQ0LjU0LTEwLjUzLDIuNTYtMTQuMTcsNi42Mi03LjA2LDcuOS04LjQzLDI3LjkyLTcuODIsMzYuNDguNiw4LjM3LjE3LDE1LjktLjMyLDIxLjU0LS4zNSw0LjAzLTIuMSwxMC4xNC0zLjIsMTYuMS0uNDMsMi4zLTEuMjIsOC4zOS0xLjY4LDE1LjEyLS42Miw5LjE2LS44OSwxOS40OS0xLjI2LDIzLjA4LS4xNSwyLjY3LS4wMiwxMC4xOS0uMTUsMTAuNDUtLjU2LDEuMTMtLjYzLDEuNTItLjgxLDIuMzItLjI1LDEuMS4xMywxLjUyLS4yOSwyLjg4LS4xNy41Ni0uNTUsMi42Ni0xLjI4LDQuNzctMS4wNCwzLjAxLTIuMTcsNi4yNS0yLjE3LDYuODYsMCwxLjk1LDEuMzIsOC43OSwyLjYxLDEwLjQ3LDEuMTgsMS41NCw3LjA0LDUuMDQsNy44Nyw1LjA0czEuMjYtLjg0LDEuMjYtLjg0YzAsMCwxLjQ0LjUsMS42OC0uNTIuMzEtMS4zNy0xLjM2LTIuMjEtMS45OS0yLjczLS42My0uNTItMi45NS0xLjc1LTMuNzktMy40My0uODQtMS42OC0uNjItOC4xMy4zMy04LjMsMS41LS4yOC43NCwzLjA0Ljg0LDQuMy4xLDEuMjYuMjUsNC40MSwyLjIsNC41MSwyLjg0LjE1LDEuNzgtNi4xOCwxLjc4LTcuODZzMS0zLjc4LDEuMTUtNS4yNGMuMzEtMi45My0uODItNi4wOC0uODItOC42LDAtLjY4LjI3LTMuNywxLjM2LTcuODIsMS40My02LDUtMjAuMzUsNy43Mi0zMi4yMywxLjkzLTguNDUsMy40NC0xNS42NSwzLjQ0LTE3LjcxLDAtMy43Ljc2LTkuNzQsMS4xMS0xMy41Ni4yMi0yLjM2LjMxLTcuNjIuNi05Ljk5LjQxLDMuMDMsMS44MSwzLjk1LDMuMzIsNS4wNC4wNCwxLjY4LS4xNCwzLjI2LjEyLDYuMDcuMzgsNC4xNC4yOSw3LjA4LS40OCwxMi43LS41NCwzLjkxLTIuOTcsNy40My0zLjk2LDEwLjI4LTIuNDEsNi45NS00LjE3LDE0LjQzLTQuOTMsMTkuMDgtMS40Miw4LjY5LTIuMjksMTIuNTQtMi43OSwxNS41NS0uNSwzLjAxLTEuMTUsMTQuMzEtMS4xMywyMS41OS4wNCwyMy4xNSw4Ljg2LDUxLjc5LDguOTksNTMuNTUuMTMsMS43Ni0uMzgsNS4zOS0uMjUsNy42NS4xMywyLjI2LDEsNi40LDEsOC41M3MtMy43NywxMC41MS0zLjc3LDE3LjkzYzAsMjguMzksNi44Nyw1My4xMSw3LDU1Ljk5LjEzLDIuODgtLjQ5LDQuNjItLjY1LDUuNy0uMTUsMS4wNy0uNzYsMy4xMy0uNTMsNC40NC0xLjk5LDMuODMtNy4zNSw5LjY2LTguODgsMTAuNDMtMS41My43Ny0yLjQ1LDEuODEtMi44NSwyLjY5LS4xNy4zOCwwLC45LjMsMS4xLS40LDEuMTUuNDgsMS42OSwxLjA0LDEuNTktLjAxLjUyLjM0Ljg5LjYxLDEuMDMsMS4wNi41NSwxLjc2LS4zNiwxLjc2LS4zNiwwLDAtLjEuODcsMS4wNywxLjQ3LDEuMDcuNTUsMi41Mi0uNjMsMi41Mi0uNjMsMCwwLS42NywxLjMxLjgzLDIuMTEsMS4xMi41OSwyLjk5LjM4LDQuNDYtLjI3LDIuMzYtMS4wMyw0LjA5LTMuMjYsNC4yOS0zLjQ1LjM2LS4zMywxLjc5LS42NiwyLjc4LTEuNTMsMS41OC0xLjQsMS4zOC0yLjI2LDEuOS0yLjg0LjMyLS4zNSwyLjgtLjQsNC41OS0yLjIsMS4zMS0xLjMyLjc5LTQuMi41MS01LjI4LS40Ny0xLjgyLS42NC0zLjkzLS42NC00LjU1cy0uMDQtMi41OC0uMTEtMy44Yy0uMDgtMS4yMy0uNzktMy43LS45LTctLjEtMi44OSw2LjkyLTMyLjkzLDYuOTItNDcuNzMsMC01LjY1LTEuNzQtOC42NS0xLjYxLTEyLjQxLjEzLTMuNzYsMy42NC0xMi4yOSw0LjI2LTIwLjE5LjYzLTcuOS0uODctOS45MS0uNjItMTMuNzkuMTMtMi4wOCwyLjIzLTEzLjczLDMuNDUtMjQuNzYsMS4wNS05LjU1LDEuNTctMTUuOTMsMS42OC0xNy45Ny4xOS0zLjM2LjI1LTYuMTkuMjktOCwuMzEuMDcuNTYuMTEuOC4xMmgwczAsMCwwLDBoMHMwLDAsMCwwYy4yNCwwLC40OS0uMDUuOC0uMTIuMDQsMS44MS4xLDQuNjQuMjksOCwuMTIsMi4wNi42Niw4LjY2LDEuNzMsMTguMzUsMS4yMSwxMC45MiwzLjI3LDIyLjMyLDMuNDEsMjQuMzguMjUsMy44OS0xLjI0LDUuODktLjYyLDEzLjc5LjYzLDcuOSw0LjE0LDE2LjQzLDQuMjYsMjAuMTkuMTMsMy43Ni0xLjYxLDYuNzctMS42MSwxMi40MSwwLDE0LjgsNy4wMSw0NC44NCw2LjkyLDQ3LjczLS4xMSwzLjMtLjgzLDUuNzctLjksNy0uMDgsMS4yMy0uMTEsMy4xOS0uMTEsMy44cy0uMTcsMi43Mi0uNjQsNC41NWMtLjI4LDEuMDgtLjgsMy45Ni41MSw1LjI4LDEuNzksMS44LDQuMjcsMS44NSw0LjU5LDIuMi41Mi41OC4zMiwxLjQ0LDEuOSwyLjg0Ljk5Ljg3LDIuNDEsMS4xOSwyLjc4LDEuNTMuMjEuMTksMS45NCwyLjQxLDQuMjksMy40NSwxLjQ3LjY1LDMuMzUuODYsNC40Ni4yNywxLjUtLjc5LjgzLTIuMTEuODMtMi4xMSwwLDAsMS40NiwxLjE4LDIuNTIuNjMsMS4xNi0uNiwxLjA3LTEuNDcsMS4wNy0xLjQ3LDAsMCwuNy45MSwxLjc2LjM2LjI3LS4xNC42My0uNTEuNjEtMS4wMy41Ni4xLDEuNDQtLjQ0LDEuMDQtMS41OS4zLS4yMS40OC0uNzIuMy0xLjEtLjQtLjg4LTEuMzItMS45Mi0yLjg1LTIuNjktMS41My0uNzctNi44OS02LjU5LTguODgtMTAuNDMuMjMtMS4zLS4zNy0zLjM2LS41My00LjQ0LS4xNS0xLjA3LS43Ny0yLjgxLS42NS01LjcuMTMtMi44OCw3LTI3LjYsNy01NS45OSwwLTcuNDMtMy43Ny0xNS44LTMuNzctMTcuOTNzLjg4LTYuMjcsMS04LjUzYy4xMy0yLjI2LS4zOC01Ljg5LS4yNS03LjY1LjEzLTEuNzYsOC45NC0zMC4zOSw4Ljk5LTUzLjU1LjAxLTcuMjctLjYzLTE4LjU4LTEuMTMtMjEuNTktLjUtMy4wMS0xLjM3LTYuODYtMi43OS0xNS41NS0uNzYtNC42NS0yLjUyLTEyLjEzLTQuOTMtMTkuMDgtLjk5LTIuODUtMy40Mi02LjM3LTMuOTYtMTAuMjgtLjc3LTUuNjMtLjg2LTguNTYtLjQ4LTEyLjcuMjYtMi44MS4wOC00LjM5LjEyLTYuMDcsMS41MS0xLjA5LDIuOTItMi4wMSwzLjMyLTUuMDQuMjksMi4zNy4zOCw3LjYzLjYsOS45OS4zNSwzLjgyLjk1LDkuODYuOTUsMTMuNTYsMCwyLjM4LDIsMTEuNTksNC4zNSwyMS42OCwyLjU2LDEwLjk1LDUuODUsMjIuOTIsNy4xMiwyOC4yNywxLjA5LDQuMTMsMS41MSw3LjE0LDEuNTEsNy44MiwwLDIuNTItMS40Niw1LjY2LTEuMTQsOC42LjE2LDEuNDYsMS4xNSwzLjU2LDEuMTUsNS4yNHMtMS4wNiw4LjAxLDEuNzgsNy44NmMxLjk1LS4xLDIuMDktMy4yNSwyLjItNC41MS4xLTEuMjYtLjY2LTQuNTguODQtNC4zLjk1LjE4LDEuMTcsNi42Mi4zMyw4LjMtLjg0LDEuNjgtMy4xNiwyLjkxLTMuNzksMy40My0uNjMuNTItMi4zMSwxLjM2LTEuOTksMi43My4yMywxLjAyLDEuNjguNTIsMS42OC41MiwwLDAsLjQyLjg0LDEuMjYuODRzNi42OS0zLjUsNy44Ny01LjA0YzEuMjktMS42OCwyLjYxLTguNTIsMi42MS0xMC40NywwLS42Mi0xLjEzLTMuODYtMi4xNy02Ljg2WlwiLz5cbiAgICAgICAgICAgICAgICA8cGF0aCBmaWxsPVwiIzE5MmYzNlwiIGQ9XCJNMTI1Ljk4LDIxOS4wN2MtLjczLTIuMTEtMS4xMS00LjIxLTEuMjgtNC43Ny0uNDItMS4zNi0uMDMtMS43OC0uMjktMi44OC0uMTgtLjgtLjI1LTEuMTktLjgxLTIuMzItLjEzLS4yNiwwLTcuNzgtLjE1LTEwLjQ1LS4zNy0zLjYzLS42NS0xNC4xNi0xLjI4LTIzLjM4LS40NS02LjYxLTEuMjQtMTIuNTUtMS42Ni0xNC44Mi0xLjEtNS45Ni0yLjg1LTEyLjA2LTMuMi0xNi4xLS40OS01LjY0LS45Mi0xMy4xNy0uMzItMjEuNTQuNjEtOC41Ni0uNzYtMjguNTgtNy44Mi0zNi40OC0zLjY0LTQuMDctMTAuNzMtNi4wOC0xNC4xNy02LjYyLTYuMDMtLjk1LTEwLjE2LTIuNjUtMTIuMDgtNS44OC0uNDYtLjc3LTEtMy4wMi0xLjMyLTUuMTUsNy4wOC0xLjAzLDEzLjc0LTMuNjYsMTguNTgtOS41MS03LjE5LTEuMi03Ljk5LTguMTgtNy41MS0xMy40NS40OC01LjI3LS4xOC0xNS4zMS0yLjQ0LTE5LjkzLTMuMzUtNi44NS0xMi4zLTEwLjU4LTE5LjgyLTEwLjAydjIwMy41MWgwczAsMCwwLDBjLjI0LDAsLjQ5LS4wNS44LS4xMi4wNCwxLjgxLjEsNC42NC4yOSw4LC4xMiwyLjA2LjY2LDguNjYsMS43MywxOC4zNSwxLjIxLDEwLjkyLDMuMjcsMjIuMzIsMy40MSwyNC4zOC4yNSwzLjg5LTEuMjQsNS44OS0uNjIsMTMuNzkuNjMsNy45LDQuMTQsMTYuNDMsNC4yNiwyMC4xOS4xMywzLjc2LTEuNjEsNi43Ny0xLjYxLDEyLjQxLDAsMTQuOCw3LjAxLDQ0Ljg0LDYuOTIsNDcuNzMtLjExLDMuMy0uODMsNS43Ny0uOSw3LS4wOCwxLjIzLS4xMSwzLjE5LS4xMSwzLjhzLS4xNywyLjcyLS42NCw0LjU1Yy0uMjgsMS4wOC0uOCwzLjk2LjUxLDUuMjgsMS43OSwxLjgsNC4yNywxLjg1LDQuNTksMi4yLjUyLjU4LjMyLDEuNDQsMS45LDIuODQuOTkuODcsMi40MSwxLjE5LDIuNzgsMS41My4yMS4xOSwxLjk0LDIuNDEsNC4yOSwzLjQ1LDEuNDcuNjUsMy4zNS44Niw0LjQ2LjI3LDEuNS0uNzkuODMtMi4xMS44My0yLjExLDAsMCwxLjQ2LDEuMTgsMi41Mi42MywxLjE2LS42LDEuMDctMS40NywxLjA3LTEuNDcsMCwwLC43LjkxLDEuNzYuMzYuMjctLjE0LjYzLS41MS42MS0xLjAzLjU2LjEsMS40NC0uNDQsMS4wNC0xLjU5LjMtLjIxLjQ4LS43Mi4zLTEuMS0uNC0uODgtMS4zMi0xLjkyLTIuODUtMi42OS0xLjUzLS43Ny02Ljg5LTYuNTktOC44OC0xMC40My4yMy0xLjMtLjM3LTMuMzYtLjUzLTQuNDQtLjE1LTEuMDctLjc3LTIuODEtLjY1LTUuNy4xMy0yLjg4LDctMjcuNiw3LTU1Ljk5LDAtNy40My0zLjc3LTE1LjgtMy43Ny0xNy45M3MuODgtNi4yNywxLTguNTNjLjEzLTIuMjYtLjM4LTUuODktLjI1LTcuNjUuMTMtMS43Niw4Ljk0LTMwLjM5LDguOTktNTMuNTUuMDEtNy4yNy0uNjMtMTguNTgtMS4xMy0yMS41OS0uNS0zLjAxLTEuMzctNi44Ni0yLjc5LTE1LjU1LS43Ni00LjY1LTIuNTItMTIuMTMtNC45My0xOS4wOC0uOTktMi44NS0zLjQyLTYuMzctMy45Ni0xMC4yOC0uNzctNS42My0uODYtOC41Ni0uNDgtMTIuNy4yNi0yLjgxLjA4LTQuMzkuMTItNi4wNywxLjUxLTEuMDksMi45Mi0yLjAxLDMuMzItNS4wNC4yOSwyLjM3LjM4LDcuNjMuNiw5Ljk5LjM1LDMuODIuOTUsOS44Ni45NSwxMy41NiwwLDIuMzgsMiwxMS41OSw0LjM1LDIxLjY4LDIuNTYsMTAuOTUsNS44NSwyMi45Miw3LjEyLDI4LjI3LDEuMDksNC4xMywxLjUxLDcuMTQsMS41MSw3LjgyLDAsMi41Mi0xLjQ2LDUuNjYtMS4xNCw4LjYuMTYsMS40NiwxLjE1LDMuNTYsMS4xNSw1LjI0cy0xLjA2LDguMDEsMS43OCw3Ljg2YzEuOTUtLjEsMi4wOS0zLjI1LDIuMi00LjUxLjEtMS4yNi0uNjYtNC41OC44NC00LjMuOTUuMTgsMS4xNyw2LjYyLjMzLDguMy0uODQsMS42OC0zLjE2LDIuOTEtMy43OSwzLjQzLS42My41Mi0yLjMxLDEuMzYtMS45OSwyLjczLjIzLDEuMDIsMS42OC41MiwxLjY4LjUyLDAsMCwuNDIuODQsMS4yNi44NHM2LjY5LTMuNSw3Ljg3LTUuMDRjMS4yOS0xLjY4LDIuNjEtOC41MiwyLjYxLTEwLjQ3LDAtLjYyLTEuMTMtMy44Ni0yLjE3LTYuODZaXCIvPlxuICAgICAgICAgICAgPC9zdmc+XG4gICAgICAgICk7XG5cbiAgICAgICAgZnVuY3Rpb24gVmFsaWRhdGlvbkJhZGdlKHsgaXNWYWxpZCB9KSB7XG4gICAgICAgICAgICBpZiAoaXNWYWxpZCA9PT0gbnVsbCkgcmV0dXJuIG51bGw7XG4gICAgICAgICAgICByZXR1cm4gKFxuICAgICAgICAgICAgICAgIDxkaXYgc3R5bGU9e3sgcG9zaXRpb246ICdhYnNvbHV0ZScsIHRvcDogJy0xMXB4JywgcmlnaHQ6ICctMTFweCcsIHpJbmRleDogMTAgfX0+XG4gICAgICAgICAgICAgICAgICAgIHtpc1ZhbGlkID8gKFxuICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBzdHlsZT17eyBiYWNrZ3JvdW5kOiAnIzIyYzU1ZScsIGJvcmRlclJhZGl1czogJzk5OTlweCcsIHBhZGRpbmc6ICc1cHgnLCBib3JkZXI6ICcycHggc29saWQgd2hpdGUnLCBib3hTaGFkb3c6ICcwIDJweCA0cHggcmdiYSgwLDAsMCwwLjEpJyB9fT5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBzdHlsZT17eyBjb2xvcjogJ3doaXRlJyB9fT48Q2hlY2tJY29uIC8+PC9zcGFuPlxuICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgICAgICkgOiAoXG4gICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IHN0eWxlPXt7IGJhY2tncm91bmQ6ICcjZWY0NDQ0JywgYm9yZGVyUmFkaXVzOiAnOTk5OXB4JywgcGFkZGluZzogJzVweCcsIGJvcmRlcjogJzJweCBzb2xpZCB3aGl0ZScsIGJveFNoYWRvdzogJzAgMnB4IDRweCByZ2JhKDAsMCwwLDAuMSknIH19PlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIHN0eWxlPXt7IGNvbG9yOiAnd2hpdGUnIH19PjxYSWNvbiAvPjwvc3Bhbj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICAgICAgICApfVxuICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgKTtcbiAgICAgICAgfVxuXG4gICAgICAgIGZ1bmN0aW9uIFByb2dlbml0b3JTZWN0aW9uKHsgdGl0bGUsIHN1YnRpdGxlLCBTVkdDb21wb25lbnQsIHN0YXRlLCBzZXRTdGF0ZSwgdmFsaWRhdGlvbiwgYWNjZW50Q29sb3IgfSkge1xuICAgICAgICAgICAgY29uc3QgZ2V0SW5wdXRDbGFzcyA9IChpc1ZhbGlkKSA9PiB7XG4gICAgICAgICAgICAgICAgY29uc3QgYmFzZSA9IFwidy1mdWxsIHRleHQtY2VudGVyIGJvcmRlci0yIHJvdW5kZWQtc20gcC0xLjUgZm9udC1ib2xkIHRleHQtYmFzZSBmb2N1czpvdXRsaW5lLW5vbmUgdHJhbnNpdGlvbi1hbGwgcmVsYXRpdmVcIjtcbiAgICAgICAgICAgICAgICBpZiAoaXNWYWxpZCA9PT0gdHJ1ZSkgcmV0dXJuIGAke2Jhc2V9IGJvcmRlci1ncmVlbi01MDAgYmctZ3JlZW4tNTAgdGV4dC1ncmVlbi03MDBgO1xuICAgICAgICAgICAgICAgIGlmIChpc1ZhbGlkID09PSBmYWxzZSkgcmV0dXJuIGAke2Jhc2V9IGJvcmRlci1yZWQtNTAwIGJnLXJlZC01MCB0ZXh0LXJlZC03MDBgO1xuICAgICAgICAgICAgICAgIHJldHVybiBgJHtiYXNlfSBib3JkZXItWyMxOTJlMzVdLzIwIGJnLWdyYXktNTAgZm9jdXM6Ym9yZGVyLVsjMTkyZTM1XWA7XG4gICAgICAgICAgICB9O1xuXG4gICAgICAgICAgICBjb25zdCBsYWJlbEJveENsYXNzID0gXCJiZy1bIzE5MmUzNV0gdGV4dC13aGl0ZSBweC02IHB5LTEuNSB0ZXh0LVsxNHB4XSBmb250LWJvbGQgdHJhY2tpbmctWzAuMmVtXSBmb250LXNhbnMgdXBwZXJjYXNlIGlubGluZS1ibG9jayBzaGFkb3ctc20gbWItMiByb3VuZGVkLXNtXCI7XG5cbiAgICAgICAgICAgIHJldHVybiAoXG4gICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJmbGV4IGZsZXgtY29sIGl0ZW1zLWNlbnRlciBmbGV4LTFcIj5cbiAgICAgICAgICAgICAgICAgICAgey8qIEZlbm90aXBvICovfVxuICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZsZXggZmxleC1jb2wgaXRlbXMtY2VudGVyIG1iLTAgdy1mdWxsXCI+XG4gICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17bGFiZWxCb3hDbGFzc30+e3RpdGxlfTwvZGl2PlxuICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJ0ZXh0LVsxM3B4XSBmb250LWJsYWNrIHRyYWNraW5nLXdpZGVzdCBtYi0xLjVcIiBzdHlsZT17eyBjb2xvcjogYWNjZW50Q29sb3IgfX0+e3N1YnRpdGxlfTwvZGl2PlxuICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJ3LTQ0IGgtNDQgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXJcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8U1ZHQ29tcG9uZW50IC8+XG4gICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG5cbiAgICAgICAgICAgICAgICAgICAgey8qIEdlbm90aXBvICovfVxuICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInctZnVsbCBtYXgtdy1bMTgwcHhdIG1iLTQgLW10LTFcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZmxleCBmbGV4LWNvbCBpdGVtcy1jZW50ZXJcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17bGFiZWxCb3hDbGFzc30+R0VOT1RJUE88L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInJlbGF0aXZlIHctZnVsbFwiPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aW5wdXRcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHR5cGU9XCJ0ZXh0XCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlPXtzdGF0ZS5nZW5vdHlwZX1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gc2V0U3RhdGUoeyAuLi5zdGF0ZSwgZ2Vub3R5cGU6IGUudGFyZ2V0LnZhbHVlIH0pfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPXtnZXRJbnB1dENsYXNzKHZhbGlkYXRpb24uZ2Vub3R5cGUpfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcGxhY2Vob2xkZXI9XCIuLi5cIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAvPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8VmFsaWRhdGlvbkJhZGdlIGlzVmFsaWQ9e3ZhbGlkYXRpb24uZ2Vub3R5cGV9IC8+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG5cbiAgICAgICAgICAgICAgICAgICAgey8qIE1laW9zaXMgRmxvdyAqL31cbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJmbGV4IGZsZXgtY29sIGl0ZW1zLWNlbnRlciBtYi00IHctZnVsbCByZWxhdGl2ZSBoLTEwXCI+XG4gICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImFic29sdXRlIHRvcC1bLTE1cHhdIHRleHQtWzEwcHhdIGZvbnQtYmxhY2sgdXBwZXJjYXNlIHRyYWNraW5nLXdpZGVzdCBvcGFjaXR5LTMwXCI+TWVpb3NpczwvZGl2PlxuICAgICAgICAgICAgICAgICAgICAgICAgPHN2ZyB3aWR0aD1cIjEwMCVcIiBoZWlnaHQ9XCIxMDAlXCIgdmlld0JveD1cIjAgMCAxMDAgNDBcIiBjbGFzc05hbWU9XCJvdmVyZmxvdy12aXNpYmxlXCI+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZD1cIk0gNTAgMCBMIDUwIDE1IEwgMjAgMjUgTSA1MCAxNSBMIDgwIDI1XCIgZmlsbD1cIm5vbmVcIiBzdHJva2U9XCIjMTkyZTM1XCIgc3Ryb2tlV2lkdGg9XCIxLjVcIiBzdHJva2VEYXNoYXJyYXk9XCI0IDJcIiBvcGFjaXR5PVwiMC4zXCIgLz5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8Y2lyY2xlIGN4PVwiNTBcIiBjeT1cIjE1XCIgcj1cIjEuNVwiIGZpbGw9XCIjMTkyZTM1XCIgLz5cbiAgICAgICAgICAgICAgICAgICAgICAgIDwvc3ZnPlxuICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cblxuICAgICAgICAgICAgICAgICAgICB7LyogR2FtZXRvcyAqL31cbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJ3LWZ1bGwgZmxleCBmbGV4LWNvbCBpdGVtcy1jZW50ZXJcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPXtsYWJlbEJveENsYXNzfT5HQU1FVE9TPC9kaXY+XG4gICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGdhcC00IHctZnVsbCBtYXgtdy1bMjgwcHhdXCI+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJyZWxhdGl2ZSBmbGV4LTFcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGlucHV0XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0eXBlPVwidGV4dFwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZT17c3RhdGUuZ2FtZXRlMX1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gc2V0U3RhdGUoeyAuLi5zdGF0ZSwgZ2FtZXRlMTogZS50YXJnZXQudmFsdWUgfSl9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9e2dldElucHV0Q2xhc3ModmFsaWRhdGlvbi5nYW1ldGUxKX1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLz5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPFZhbGlkYXRpb25CYWRnZSBpc1ZhbGlkPXt2YWxpZGF0aW9uLmdhbWV0ZTF9IC8+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPVwiZm9udC1ibGFjayB0ZXh0LVsjMTkyZTM1XSB0ZXh0LWxnIHBiLTAuNSBpdGFsaWMgb3BhY2l0eS00MFwiPnk8L3NwYW4+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJyZWxhdGl2ZSBmbGV4LTFcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGlucHV0XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0eXBlPVwidGV4dFwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZT17c3RhdGUuZ2FtZXRlMn1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gc2V0U3RhdGUoeyAuLi5zdGF0ZSwgZ2FtZXRlMjogZS50YXJnZXQudmFsdWUgfSl9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9e2dldElucHV0Q2xhc3ModmFsaWRhdGlvbi5nYW1ldGUyKX1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLz5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPFZhbGlkYXRpb25CYWRnZSBpc1ZhbGlkPXt2YWxpZGF0aW9uLmdhbWV0ZTJ9IC8+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICApO1xuICAgICAgICB9XG5cbiAgICAgICAgZnVuY3Rpb24gQXBwKCkge1xuICAgICAgICAgICAgY29uc3QgW2ZhdGhlciwgc2V0RmF0aGVyXSA9IHVzZVN0YXRlKHsgZ2Vub3R5cGU6ICcnLCBnYW1ldGUxOiAnJywgZ2FtZXRlMjogJycgfSk7XG4gICAgICAgICAgICBjb25zdCBbbW90aGVyLCBzZXRNb3RoZXJdID0gdXNlU3RhdGUoeyBnZW5vdHlwZTogJycsIGdhbWV0ZTE6ICcnLCBnYW1ldGUyOiAnJyB9KTtcbiAgICAgICAgICAgIGNvbnN0IFtmYXRoZXJWYWxpZGF0aW9uLCBzZXRGYXRoZXJWYWxpZGF0aW9uXSA9IHVzZVN0YXRlKHsgZ2Vub3R5cGU6IG51bGwsIGdhbWV0ZTE6IG51bGwsIGdhbWV0ZTI6IG51bGwgfSk7XG4gICAgICAgICAgICBjb25zdCBbbW90aGVyVmFsaWRhdGlvbiwgc2V0TW90aGVyVmFsaWRhdGlvbl0gPSB1c2VTdGF0ZSh7IGdlbm90eXBlOiBudWxsLCBnYW1ldGUxOiBudWxsLCBnYW1ldGUyOiBudWxsIH0pO1xuXG4gICAgICAgICAgICBjb25zdCBjb3JyZWN0RmF0aGVyID0geyBnZW5vdHlwZTogJ1hjWScsIGdhbWV0ZTE6ICdYYycsIGdhbWV0ZTI6ICdZJyB9O1xuICAgICAgICAgICAgY29uc3QgY29ycmVjdE1vdGhlciA9IHsgZ2Vub3R5cGU6ICdYQ1hjJywgZ2FtZXRlMTogJ1hDJywgZ2FtZXRlMjogJ1hjJyB9O1xuXG4gICAgICAgICAgICBjb25zdCBoYW5kbGVWZXJpZnkgPSAoKSA9PiB7XG4gICAgICAgICAgICAgICAgc2V0RmF0aGVyVmFsaWRhdGlvbih7XG4gICAgICAgICAgICAgICAgICAgIGdlbm90eXBlOiBmYXRoZXIuZ2Vub3R5cGUudHJpbSgpID09PSBjb3JyZWN0RmF0aGVyLmdlbm90eXBlLFxuICAgICAgICAgICAgICAgICAgICBnYW1ldGUxOiBmYXRoZXIuZ2FtZXRlMS50cmltKCkgPT09IGNvcnJlY3RGYXRoZXIuZ2FtZXRlMSxcbiAgICAgICAgICAgICAgICAgICAgZ2FtZXRlMjogZmF0aGVyLmdhbWV0ZTIudHJpbSgpID09PSBjb3JyZWN0RmF0aGVyLmdhbWV0ZTIsXG4gICAgICAgICAgICAgICAgfSk7XG4gICAgICAgICAgICAgICAgc2V0TW90aGVyVmFsaWRhdGlvbih7XG4gICAgICAgICAgICAgICAgICAgIGdlbm90eXBlOiBtb3RoZXIuZ2Vub3R5cGUudHJpbSgpID09PSBjb3JyZWN0TW90aGVyLmdlbm90eXBlLFxuICAgICAgICAgICAgICAgICAgICBnYW1ldGUxOiBtb3RoZXIuZ2FtZXRlMS50cmltKCkgPT09IGNvcnJlY3RNb3RoZXIuZ2FtZXRlMSxcbiAgICAgICAgICAgICAgICAgICAgZ2FtZXRlMjogbW90aGVyLmdhbWV0ZTIudHJpbSgpID09PSBjb3JyZWN0TW90aGVyLmdhbWV0ZTIsXG4gICAgICAgICAgICAgICAgfSk7XG4gICAgICAgICAgICB9O1xuXG4gICAgICAgICAgICBjb25zdCBoYW5kbGVSZXN0YXJ0ID0gKCkgPT4ge1xuICAgICAgICAgICAgICAgIHNldEZhdGhlcih7IGdlbm90eXBlOiAnJywgZ2FtZXRlMTogJycsIGdhbWV0ZTI6ICcnIH0pO1xuICAgICAgICAgICAgICAgIHNldE1vdGhlcih7IGdlbm90eXBlOiAnJywgZ2FtZXRlMTogJycsIGdhbWV0ZTI6ICcnIH0pO1xuICAgICAgICAgICAgICAgIHNldEZhdGhlclZhbGlkYXRpb24oeyBnZW5vdHlwZTogbnVsbCwgZ2FtZXRlMTogbnVsbCwgZ2FtZXRlMjogbnVsbCB9KTtcbiAgICAgICAgICAgICAgICBzZXRNb3RoZXJWYWxpZGF0aW9uKHsgZ2Vub3R5cGU6IG51bGwsIGdhbWV0ZTE6IG51bGwsIGdhbWV0ZTI6IG51bGwgfSk7XG4gICAgICAgICAgICB9O1xuXG4gICAgICAgICAgICByZXR1cm4gKFxuICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibWluLWgtc2NyZWVuIGZsZXggZmxleC1jb2wgaXRlbXMtY2VudGVyIHAtNSBiZy13aGl0ZSBvdmVyZmxvdy12aXNpYmxlXCI+XG4gICAgICAgICAgICAgICAgICAgIDxoZWFkZXIgY2xhc3NOYW1lPVwibWItNCB0ZXh0LWNlbnRlclwiPlxuICAgICAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPVwidGV4dC1bMTZweF0gZm9udC1ib2xkIHVwcGVyY2FzZSB0cmFja2luZy1bMC4yZW1dIG9wYWNpdHktNjBcIj5Db21wbGV0w6EgbG9zIGVzcGFjaW9zIGVuIGJsYW5jbyBzZWfDum4gY29ycmVzcG9uZGE8L3A+XG4gICAgICAgICAgICAgICAgICAgIDwvaGVhZGVyPlxuXG4gICAgICAgICAgICAgICAgICAgIDxtYWluIGNsYXNzTmFtZT1cInctZnVsbCBtYXgtdy00eGwgZmxleCBnYXAtMTAgcmVsYXRpdmVcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxQcm9nZW5pdG9yU2VjdGlvblxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRpdGxlPVwiRkVOT1RJUE9cIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN1YnRpdGxlPVwiUEFEUkVcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIFNWR0NvbXBvbmVudD17RmF0aGVyU1ZHfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRlPXtmYXRoZXJ9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgc2V0U3RhdGU9e3NldEZhdGhlcn1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWxpZGF0aW9uPXtmYXRoZXJWYWxpZGF0aW9ufVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFjY2VudENvbG9yPVwiIzE5MmUzNVwiXG4gICAgICAgICAgICAgICAgICAgICAgICAvPlxuXG4gICAgICAgICAgICAgICAgICAgICAgICA8UHJvZ2VuaXRvclNlY3Rpb25cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0aXRsZT1cIkZFTk9USVBPXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdWJ0aXRsZT1cIk1BRFJFXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBTVkdDb21wb25lbnQ9e01vdGhlclNWR31cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0ZT17bW90aGVyfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNldFN0YXRlPXtzZXRNb3RoZXJ9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsaWRhdGlvbj17bW90aGVyVmFsaWRhdGlvbn1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBhY2NlbnRDb2xvcj1cIiNiNjZlYWJcIlxuICAgICAgICAgICAgICAgICAgICAgICAgLz5cbiAgICAgICAgICAgICAgICAgICAgPC9tYWluPlxuXG4gICAgICAgICAgICAgICAgICAgIDxmb290ZXIgY2xhc3NOYW1lPVwibXQtYXV0byBmbGV4IGdhcC02IGl0ZW1zLWNlbnRlciBwdC0yXCI+XG4gICAgICAgICAgICAgICAgICAgICAgICA8YnV0dG9uXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljaz17aGFuZGxlVmVyaWZ5fVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT1cImJnLVsjYjY2ZWFiXSB0ZXh0LXdoaXRlIHB4LTggcHktMi41IHJvdW5kZWQtc20gZm9udC1ib2xkIHVwcGVyY2FzZSB0cmFja2luZy13aWRlc3QgaG92ZXI6b3BhY2l0eS05MCB0cmFuc2l0aW9uLWFsbCBzaGFkb3ctWzBfNHB4XzBfMF8jOTQ1NjhhXSBhY3RpdmU6dHJhbnNsYXRlLXktMSBhY3RpdmU6c2hhZG93LW5vbmVcIlxuICAgICAgICAgICAgICAgICAgICAgICAgPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIFZlcmlmaWNhciBSZXNwdWVzdGFzXG4gICAgICAgICAgICAgICAgICAgICAgICA8L2J1dHRvbj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxidXR0b25cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXtoYW5kbGVSZXN0YXJ0fVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT1cInRleHQtWyMxOTJlMzVdIHB4LTQgcHktMS41IHJvdW5kZWQtc20gZm9udC1ib2xkIHVwcGVyY2FzZSB0cmFja2luZy13aWRlc3QgZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgaG92ZXI6YmctZ3JheS0xMDAgdHJhbnNpdGlvbi1hbGwgdGV4dC1zbVwiXG4gICAgICAgICAgICAgICAgICAgICAgICA+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPFJvdGF0ZUljb24gLz5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBSZWluaWNpYXJcbiAgICAgICAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPlxuICAgICAgICAgICAgICAgICAgICA8L2Zvb3Rlcj5cbiAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICk7XG4gICAgICAgIH1cblxuICAgICAgICBjb25zdCByb290ID0gUmVhY3RET00uY3JlYXRlUm9vdChkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgncm9vdCcpKTtcbiAgICAgICAgcm9vdC5yZW5kZXIoPEFwcCAvPik7XG4gICAgIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7OztBQUNRLElBQUFBLE1BQUEsR0FBcUJDLEtBQUs7RUFBbEJDLFFBQVEsR0FBQUYsTUFBQSxDQUFSRSxRQUFRO0FBRWhCLElBQU1DLFNBQVMsR0FBRyxTQUFaQSxTQUFTQSxDQUFBO0VBQUEsb0JBQ1hGLEtBQUEsQ0FBQUcsYUFBQTtJQUFLQyxLQUFLLEVBQUMsSUFBSTtJQUFDQyxNQUFNLEVBQUMsSUFBSTtJQUFDQyxPQUFPLEVBQUMsV0FBVztJQUFDQyxJQUFJLEVBQUMsTUFBTTtJQUFDQyxNQUFNLEVBQUMsY0FBYztJQUFDQyxXQUFXLEVBQUMsR0FBRztJQUFDQyxhQUFhLEVBQUMsT0FBTztJQUFDQyxjQUFjLEVBQUM7RUFBTyxnQkFBQ1gsS0FBQSxDQUFBRyxhQUFBO0lBQVVTLE1BQU0sRUFBQztFQUFnQixDQUFXLENBQU0sQ0FBQztBQUFBLENBQ3JNO0FBRUQsSUFBTUMsS0FBSyxHQUFHLFNBQVJBLEtBQUtBLENBQUE7RUFBQSxvQkFDUGIsS0FBQSxDQUFBRyxhQUFBO0lBQUtDLEtBQUssRUFBQyxJQUFJO0lBQUNDLE1BQU0sRUFBQyxJQUFJO0lBQUNDLE9BQU8sRUFBQyxXQUFXO0lBQUNDLElBQUksRUFBQyxNQUFNO0lBQUNDLE1BQU0sRUFBQyxjQUFjO0lBQUNDLFdBQVcsRUFBQyxHQUFHO0lBQUNDLGFBQWEsRUFBQyxPQUFPO0lBQUNDLGNBQWMsRUFBQztFQUFPLGdCQUFDWCxLQUFBLENBQUFH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O0lBQUtvQixTQUFTLEVBQUM7RUFBdUUsZ0JBQ2xGdkIsS0FBQSxDQUFBRyxhQUFBO0lBQVFvQixTQUFTLEVBQUM7RUFBa0IsZ0JBQ2hDdkIsS0FBQSxDQUFBRyxhQUFBO0lBQUdvQixTQUFTLEVBQUM7RUFBNkQsR0FBQyx5REFBb0QsQ0FDM0gsQ0FBQyxlQUVUdkIsS0FBQSxDQUFBRyxhQUFBO0lBQU1vQixTQUFTLEVBQUM7RUFBdUMsZ0JBQ25EdkIsS0FBQSxDQUFBRyxhQUFBLENBQUNvQyxpQkFBaUI7SUFDZEUsS0FBSyxFQUFDLFVBQVU7SUFDaEJDLFFBQVEsRUFBQyxPQUFPO0lBQ2hCQyxZQUFZLEVBQUV2QixTQUFVO0lBQ3hCd0IsS0FBSyxFQUFFMkIsTUFBTztJQUNkMUIsUUFBUSxFQUFFMkIsU0FBVTtJQUNwQjFCLFVBQVUsRUFBRWlDLGdCQUFpQjtJQUM3QmhDLFdBQVcsRUFBQztFQUFTLENBQ3hCLENBQUMsZUFFRi9DLEtBQUEsQ0FBQUcsYUFBQSxDQUFDb0MsaUJBQWlCO0lBQ2RFLEtBQUssRUFBQyxVQUFVO0lBQ2hCQyxRQUFRLEVBQUMsT0FBTztJQUNoQkMsWUFBWSxFQUFFbkIsU0FBVTtJQUN4Qm9CLEtBQUssRUFBRStCLE1BQU87SUFDZDlCLFFBQVEsRUFBRStCLFNBQVU7SUFDcEI5QixVQUFVLEVBQUVxQyxnQkFBaUI7SUFDN0JwQyxXQUFXLEVBQUM7RUFBUyxDQUN4QixDQUNDLENBQUMsZUFFUC9DLEtBQUEsQ0FBQUcsYUFBQTtJQUFRb0IsU0FBUyxFQUFDO0VBQXNDLGdCQUNwRHZCLEtBQUEsQ0FBQUcsYUFBQTtJQUNJdUYsT0FBTyxFQUFFSCxZQUFhO0lBQ3RCaEUsU0FBUyxFQUFDO0VBQXVMLEdBQ3BNLHNCQUVPLENBQUMsZUFDVHZCLEtBQUEsQ0FBQUcsYUFBQTtJQUNJdUYsT0FBTyxFQUFFRCxhQUFjO0lBQ3ZCbEUsU0FBUyxFQUFDO0VBQTRJLGdCQUV0SnZCLEtBQUEsQ0FBQUcsYUFBQSxDQUFDZSxVQUFVLE1BQUUsQ0FBQyxhQUVWLENBQ0osQ0FDUCxDQUFDO0FBRWQ7QUFFQSxJQUFNeUUsSUFBSSxHQUFHQyxRQUFRLENBQUNDLFVBQVUsQ0FBQ0MsUUFBUSxDQUFDQyxjQUFjLENBQUMsTUFBTSxDQUFDLENBQUM7QUFDakVKLElBQUksQ0FBQ0ssTUFBTSxjQUFDaEcsS0FBQSxDQUFBRyxhQUFBLENBQUNnRSxHQUFHLE1BQUUsQ0FBQyxDQUFDIiwiaWdub3JlTGlzdCI6W119</script></head>
+<body>
+    <div id="root-container">
+        <div id="root" style="min-height: 100%;"><div class="min-h-screen flex flex-col items-center p-5 bg-white overflow-visible"><header class="mb-4 text-center"><p class="text-[16px] font-bold uppercase tracking-[0.2em] opacity-60">Completá los espacios en blanco según corresponda</p></header><main class="w-full max-w-4xl flex gap-10 relative"><div class="flex flex-col items-center flex-1"><div class="flex flex-col items-center mb-0 w-full"><div class="bg-[#192e35] text-white px-6 py-1.5 text-[14px] font-bold tracking-[0.2em] font-sans uppercase inline-block shadow-sm mb-2 rounded-sm">FENOTIPO</div><div class="text-[13px] font-black tracking-widest mb-1.5" style="color: rgb(25, 46, 53);">PADRE</div><div class="w-44 h-44 flex items-center justify-center"><svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 137.87 434.77" class="w-full h-full object-contain"><path fill="#192f36" d="M131.39,231.92c.01-1.82.34-3.8.47-5.62.11-1.61-.4-3.32-.47-4.92-.33-7.35-.26-15.23-.43-22.84-.19-8.09.34-16.74-.95-24.58-.61-3.69-2.07-7.43-2.78-11.1-2.1-10.98-1.03-38.61-1.04-50,0-7.52-1.37-16.21-5.55-22.57-2.93-4.46-8.43-7.09-13.53-8.23-4.18-1.17-8.33-2.42-12.45-3.78-3.48-1.15-11.72-2.74-13.1-5.84-1.52-3.42-.9-7.62-.79-11.92,1.99-2.68,3.41-5.65,4.1-8.07,2.23-.16,1.78-4.06,2.1-5.05.32-.99,2.11-6.75,1.54-7.55-.58-.8-1.24-.03-1.24-.03,0,0,1.23-10.54-1.14-16.68-1.85-4.8-7.57-11.38-17.86-11.38h-.02c-10.29,0-16.01,6.59-17.86,11.38-2.36,6.14-1.13,16.68-1.13,16.68,0,0-.67-.78-1.25.03-.58.8,1.22,6.56,1.54,7.55.32.99-.13,4.89,2.1,5.05.78,2.76,2.54,6.26,5.01,9.22.08,3.92.46,7.64-.94,10.77-1.37,3.06-9.34,4.68-12.78,5.84-4.01,1.35-8.06,2.61-12.13,3.78-5.1,1.13-10.61,3.77-13.53,8.23-4.18,6.36-5.55,15.05-5.55,22.57-.01,11.38,1.06,39.02-1.04,50-.7,3.67-2.17,7.41-2.78,11.1-1.29,7.85-.77,16.49-.95,24.58-.18,7.61-.11,15.48-.44,22.84-.07,1.6-.58,3.31-.47,4.92.13,1.82.45,3.8.47,5.62.03,5.22-1.94,11.36-1.2,16.41.56,3.77,3.29,10.38,5.98,12.67,2.38,2.02,7.31,5.22,9.77,5.36.19.01.79-1.82.2-3.04-.93-1.93-4.09-3.39-4.92-4.85-.84-1.47-.92-3.38-1.07-5.03-.13-1.5-.52-3.06,0-4.58.23-.67.91-2.54,1.79-2.54.2,0,1.35,1.09,1.46,1.93.19,1.46.08,3.08.2,4.52.15,1.79,1.28,5.42,3.06,5.69,1.39.21,1.46-.22,1.79-.87s-.4-3.39-.13-4.32-.03-2.71-.2-3.52c-.47-2.15.16-4.91-.13-7.22-.31-2.4-1.31-5.47-2.72-7.45-1.19-1.66-2.92-3.43-3.45-5.36-.63-2.27-.47-5.41.2-7.77,2.63-9.19,6.15-18.8,7.74-28.44,1.58-9.62,2.97-19.5,4.14-29.06.44-3.63,1.37-15.99,2.08-21.06,0-.61.07-1.02.19-1.17-.06.32-.12.72-.19,1.17-.05,3.65,1.75,14.65,3.57,21.64,1.22,4.66.17,16.94-1.48,27.45-1.65,10.56-6.65,18.31-7.59,35.51-.75,13.7.44,27.85,1.68,41.6.93,10.33,2.87,20.69,5.03,30.73.81,3.79.46,8,.29,11.89-.15,3.58.37,7.24.15,10.75-.43,6.88-2.95,13.83-2.85,20.82.22,15.33,3.31,31.45,5.51,46.83.61,4.25,2.73,9.92,1.66,13.49-.95,3.17-4.54,6.53-6.32,9.97-1.2,2.31-4.47,3.84-6.53,5.23-1.31.88-2.48,2.07-3.7,3.05-.53.42-2.35,1.5-2.91,2.32-.76,1.13-.22,1.66-.07,1.67-.76.69-.74,1.93-.09,2.01-.41,1.11.22,1.77.9,1.64-.46.92.52,1.89,1.43,1.6.51,1.9,3.17,1.49,4.48.82.2,2.1,3.09,2.55,4.69,2.26,1.92-.34,3.73-.92,5.31-2.15.68-.53,1.57-2.07,1.96-2.4,1.24-1.05,3.07-1.56,4.32-2.68,1.13-1.02,1.5-2.75,2.25-3.88.76-1.13,2.42-2.42,3.86-2.64,1.98-.31,4.61-1.01,5.55-3.11.91-2.03.6-4.84.1-6.97-.37-1.56-1.05-3.23-1.03-4.78,0-.53.42-1.91.2-3.4-.24-1.64-1.06-2.89-1.29-4.14-.38-2-.39-4.09-.42-6.13-.07-5.69,1.64-11.62,2.68-17.19,1.36-7.27,2.91-14.66,3.23-22.02.2-4.62.05-9.25-.46-13.87-.28-2.49-.87-5.13-.57-7.59.83-6.92,4.78-13.65,5.75-20.67.93-6.8-.27-13.8.32-20.63.67-7.83,1.92-15.75,3.14-23.57.72-4.55,1.45-9.12,2.47-13.62.35-1.53.84-7.8,1.89-8.74.05-.04.35.09.65.08.32,0,.66-.15.71-.11,1.09.9,1.57,7.22,1.92,8.77,1.02,4.5,1.76,9.06,2.47,13.62,1.22,7.82,2.44,15.71,3.14,23.57.62,6.86-.62,13.83.32,20.63.96,7.02,4.92,13.75,5.75,20.67.29,2.46-.29,5.1-.57,7.59-.52,4.62-.67,9.25-.46,13.87.33,7.35,1.87,14.75,3.23,22.02,1.04,5.57,2.74,11.5,2.68,17.19-.03,2.04-.04,4.13-.42,6.13-.24,1.25-1.05,2.49-1.3,4.14-.22,1.49.2,2.87.21,3.4.02,1.55-.67,3.24-1.03,4.78-.49,2.16-.87,5.01.09,6.97,1,2.02,3.45,2.77,5.55,3.11,1.44.23,3.1,1.52,3.86,2.64.75,1.13,1.12,2.86,2.25,3.88,1.25,1.12,3.08,1.64,4.32,2.68.39.33,1.28,1.87,1.96,2.4,1.59,1.23,3.44,1.87,5.32,2.15,1.59.24,4.48-.09,4.69-2.26,1.33.68,3.96,1.08,4.48-.82.91.29,1.89-.68,1.43-1.6.68.13,1.31-.52.89-1.64.66-.08.68-1.32-.09-2.01.15-.02.69-.54-.07-1.67-.55-.82-2.38-1.9-2.91-2.32-1.22-.97-2.39-2.16-3.7-3.05-2.13-1.44-5.29-2.99-6.53-5.23-1.82-3.3-5.38-6.8-6.32-9.97-1.05-3.54,1.05-9.26,1.66-13.49,2.2-15.37,5.31-31.48,5.51-46.83.09-7.01-2.42-13.93-2.85-20.82-.22-3.51.29-7.18.15-10.75-.15-3.88-.52-8.1.3-11.89,2.15-10.04,4.1-20.4,5.03-30.73,1.24-13.75,1.97-27.89,1.68-41.6-.42-19.41-5.87-24.99-7.59-35.51-1.71-10.45-2.28-22.59-1.48-27.45,1.29-7.86,2.67-18.5,2.07-23.08.44,1.94,3.23,18.44,3.7,22.5,1.12,9.64,2.56,19.43,4.14,29.06,1.59,9.64,5.2,19.3,7.74,28.44.65,2.35.85,5.49.2,7.77-.55,1.94-2.27,3.7-3.45,5.36-1.42,1.99-2.41,5.05-2.73,7.45-.29,2.31.34,5.06-.13,7.22-.17.8-.46,2.58-.2,3.52.26.93-.47,3.67-.13,4.32.33.65,1.14,1.13,1.79.87,1.75-.71,2.91-3.8,3.06-5.69.11-1.44,0-3.06.2-4.52.11-.84,1.26-1.93,1.46-1.93,1.56.03,2.1,3.62,2,4.68-.22,2.37-.03,5.33-1.27,7.45-.86,1.47-3.99,2.91-4.92,4.85-.59,1.23.01,3.06.2,3.04,2.47-.14,7.39-3.34,9.76-5.36,2.69-2.28,5.42-8.9,5.98-12.67.75-5.05-1.23-11.19-1.19-16.41Z"></path></svg></div></div><div class="w-full max-w-[180px] mb-4 -mt-1"><div class="flex flex-col items-center"><div class="bg-[#192e35] text-white px-6 py-1.5 text-[14px] font-bold tracking-[0.2em] font-sans uppercase inline-block shadow-sm mb-2 rounded-sm">GENOTIPO</div><div class="relative w-full"><input type="text" class="w-full text-center border-2 rounded-sm p-1.5 font-bold text-base focus:outline-none transition-all relative border-[#192e35]/20 bg-gray-50 focus:border-[#192e35]" placeholder="..." value=""></div></div></div><div class="flex flex-col items-center mb-4 w-full relative h-10"><div class="absolute top-[-15px] text-[10px] font-black uppercase tracking-widest opacity-30">Meiosis</div><svg width="100%" height="100%" viewBox="0 0 100 40" class="overflow-visible"><path d="M 50 0 L 50 15 L 20 25 M 50 15 L 80 25" fill="none" stroke="#192e35" stroke-width="1.5" stroke-dasharray="4 2" opacity="0.3"></path><circle cx="50" cy="15" r="1.5" fill="#192e35"></circle></svg></div><div class="w-full flex flex-col items-center"><div class="bg-[#192e35] text-white px-6 py-1.5 text-[14px] font-bold tracking-[0.2em] font-sans uppercase inline-block shadow-sm mb-2 rounded-sm">GAMETOS</div><div class="flex items-center justify-center gap-4 w-full max-w-[280px]"><div class="relative flex-1"><input type="text" class="w-full text-center border-2 rounded-sm p-1.5 font-bold text-base focus:outline-none transition-all relative border-[#192e35]/20 bg-gray-50 focus:border-[#192e35]" value=""></div><span class="font-black text-[#192e35] text-lg pb-0.5 italic opacity-40">y</span><div class="relative flex-1"><input type="text" class="w-full text-center border-2 rounded-sm p-1.5 font-bold text-base focus:outline-none transition-all relative border-[#192e35]/20 bg-gray-50 focus:border-[#192e35]" value=""></div></div></div></div><div class="flex flex-col items-center flex-1"><div class="flex flex-col items-center mb-0 w-full"><div class="bg-[#192e35] text-white px-6 py-1.5 text-[14px] font-bold tracking-[0.2em] font-sans uppercase inline-block shadow-sm mb-2 rounded-sm">FENOTIPO</div><div class="text-[13px] font-black tracking-widest mb-1.5" style="color: rgb(182, 110, 171);">MADRE</div><div class="w-44 h-44 flex items-center justify-center"><svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 137.87 395.28" class="w-full h-full object-contain"><path fill="#192f36" d="M125.98,219.07c-.73-2.11-1.11-4.21-1.28-4.77-.42-1.36-.03-1.78-.29-2.88-.18-.8-.25-1.19-.81-2.32-.13-.26,0-7.78-.15-10.45-.37-3.63-.65-14.16-1.28-23.38-.45-6.61-1.24-12.55-1.66-14.82-1.1-5.96-2.85-12.06-3.2-16.1-.49-5.64-.92-13.17-.32-21.54.61-8.56-.76-28.58-7.82-36.48-3.64-4.07-10.73-6.08-14.17-6.62-6.03-.95-10.16-2.65-12.08-5.88-.46-.77-1-3.02-1.32-5.15,7.08-1.03,13.74-3.66,18.58-9.51-7.19-1.2-7.99-8.18-7.51-13.45.48-5.27-.18-15.31-2.44-19.93-4.27-8.73-17.62-12.4-25.53-8.56-6.71-1.2-10.16,3.39-13.04,6.99s-11.4,24-7.1,33.52c3.53,7.82,10.51,9.83,13.19,10.22.46.07,1.02.15,1.68.25-.19,2.58-7.56,10.56-13.59,11.51-3.44.54-10.53,2.56-14.17,6.62-7.06,7.9-8.43,27.92-7.82,36.48.6,8.37.17,15.9-.32,21.54-.35,4.03-2.1,10.14-3.2,16.1-.43,2.3-1.22,8.39-1.68,15.12-.62,9.16-.89,19.49-1.26,23.08-.15,2.67-.02,10.19-.15,10.45-.56,1.13-.63,1.52-.81,2.32-.25,1.1.13,1.52-.29,2.88-.17.56-.55,2.66-1.28,4.77-1.04,3.01-2.17,6.25-2.17,6.86,0,1.95,1.32,8.79,2.61,10.47,1.18,1.54,7.04,5.04,7.87,5.04s1.26-.84,1.26-.84c0,0,1.44.5,1.68-.52.31-1.37-1.36-2.21-1.99-2.73-.63-.52-2.95-1.75-3.79-3.43-.84-1.68-.62-8.13.33-8.3,1.5-.28.74,3.04.84,4.3.1,1.26.25,4.41,2.2,4.51,2.84.15,1.78-6.18,1.78-7.86s1-3.78,1.15-5.24c.31-2.93-.82-6.08-.82-8.6,0-.68.27-3.7,1.36-7.82,1.43-6,5-20.35,7.72-32.23,1.93-8.45,3.44-15.65,3.44-17.71,0-3.7.76-9.74,1.11-13.56.22-2.36.31-7.62.6-9.99.41,3.03,1.81,3.95,3.32,5.04.04,1.68-.14,3.26.12,6.07.38,4.14.29,7.08-.48,12.7-.54,3.91-2.97,7.43-3.96,10.28-2.41,6.95-4.17,14.43-4.93,19.08-1.42,8.69-2.29,12.54-2.79,15.55-.5,3.01-1.15,14.31-1.13,21.59.04,23.15,8.86,51.79,8.99,53.55.13,1.76-.38,5.39-.25,7.65.13,2.26,1,6.4,1,8.53s-3.77,10.51-3.77,17.93c0,28.39,6.87,53.11,7,55.99.13,2.88-.49,4.62-.65,5.7-.15,1.07-.76,3.13-.53,4.44-1.99,3.83-7.35,9.66-8.88,10.43-1.53.77-2.45,1.81-2.85,2.69-.17.38,0,.9.3,1.1-.4,1.15.48,1.69,1.04,1.59-.01.52.34.89.61,1.03,1.06.55,1.76-.36,1.76-.36,0,0-.1.87,1.07,1.47,1.07.55,2.52-.63,2.52-.63,0,0-.67,1.31.83,2.11,1.12.59,2.99.38,4.46-.27,2.36-1.03,4.09-3.26,4.29-3.45.36-.33,1.79-.66,2.78-1.53,1.58-1.4,1.38-2.26,1.9-2.84.32-.35,2.8-.4,4.59-2.2,1.31-1.32.79-4.2.51-5.28-.47-1.82-.64-3.93-.64-4.55s-.04-2.58-.11-3.8c-.08-1.23-.79-3.7-.9-7-.1-2.89,6.92-32.93,6.92-47.73,0-5.65-1.74-8.65-1.61-12.41.13-3.76,3.64-12.29,4.26-20.19.63-7.9-.87-9.91-.62-13.79.13-2.08,2.23-13.73,3.45-24.76,1.05-9.55,1.57-15.93,1.68-17.97.19-3.36.25-6.19.29-8,.31.07.56.11.8.12h0s0,0,0,0h0s0,0,0,0c.24,0,.49-.05.8-.12.04,1.81.1,4.64.29,8,.12,2.06.66,8.66,1.73,18.35,1.21,10.92,3.27,22.32,3.41,24.38.25,3.89-1.24,5.89-.62,13.79.63,7.9,4.14,16.43,4.26,20.19.13,3.76-1.61,6.77-1.61,12.41,0,14.8,7.01,44.84,6.92,47.73-.11,3.3-.83,5.77-.9,7-.08,1.23-.11,3.19-.11,3.8s-.17,2.72-.64,4.55c-.28,1.08-.8,3.96.51,5.28,1.79,1.8,4.27,1.85,4.59,2.2.52.58.32,1.44,1.9,2.84.99.87,2.41,1.19,2.78,1.53.21.19,1.94,2.41,4.29,3.45,1.47.65,3.35.86,4.46.27,1.5-.79.83-2.11.83-2.11,0,0,1.46,1.18,2.52.63,1.16-.6,1.07-1.47,1.07-1.47,0,0,.7.91,1.76.36.27-.14.63-.51.61-1.03.56.1,1.44-.44,1.04-1.59.3-.21.48-.72.3-1.1-.4-.88-1.32-1.92-2.85-2.69-1.53-.77-6.89-6.59-8.88-10.43.23-1.3-.37-3.36-.53-4.44-.15-1.07-.77-2.81-.65-5.7.13-2.88,7-27.6,7-55.99,0-7.43-3.77-15.8-3.77-17.93s.88-6.27,1-8.53c.13-2.26-.38-5.89-.25-7.65.13-1.76,8.94-30.39,8.99-53.55.01-7.27-.63-18.58-1.13-21.59-.5-3.01-1.37-6.86-2.79-15.55-.76-4.65-2.52-12.13-4.93-19.08-.99-2.85-3.42-6.37-3.96-10.28-.77-5.63-.86-8.56-.48-12.7.26-2.81.08-4.39.12-6.07,1.51-1.09,2.92-2.01,3.32-5.04.29,2.37.38,7.63.6,9.99.35,3.82.95,9.86.95,13.56,0,2.38,2,11.59,4.35,21.68,2.56,10.95,5.85,22.92,7.12,28.27,1.09,4.13,1.51,7.14,1.51,7.82,0,2.52-1.46,5.66-1.14,8.6.16,1.46,1.15,3.56,1.15,5.24s-1.06,8.01,1.78,7.86c1.95-.1,2.09-3.25,2.2-4.51.1-1.26-.66-4.58.84-4.3.95.18,1.17,6.62.33,8.3-.84,1.68-3.16,2.91-3.79,3.43-.63.52-2.31,1.36-1.99,2.73.23,1.02,1.68.52,1.68.52,0,0,.42.84,1.26.84s6.69-3.5,7.87-5.04c1.29-1.68,2.61-8.52,2.61-10.47,0-.62-1.13-3.86-2.17-6.86Z"></path><path fill="#192f36" d="M125.98,219.07c-.73-2.11-1.11-4.21-1.28-4.77-.42-1.36-.03-1.78-.29-2.88-.18-.8-.25-1.19-.81-2.32-.13-.26,0-7.78-.15-10.45-.37-3.63-.65-14.16-1.28-23.38-.45-6.61-1.24-12.55-1.66-14.82-1.1-5.96-2.85-12.06-3.2-16.1-.49-5.64-.92-13.17-.32-21.54.61-8.56-.76-28.58-7.82-36.48-3.64-4.07-10.73-6.08-14.17-6.62-6.03-.95-10.16-2.65-12.08-5.88-.46-.77-1-3.02-1.32-5.15,7.08-1.03,13.74-3.66,18.58-9.51-7.19-1.2-7.99-8.18-7.51-13.45.48-5.27-.18-15.31-2.44-19.93-3.35-6.85-12.3-10.58-19.82-10.02v203.51h0s0,0,0,0c.24,0,.49-.05.8-.12.04,1.81.1,4.64.29,8,.12,2.06.66,8.66,1.73,18.35,1.21,10.92,3.27,22.32,3.41,24.38.25,3.89-1.24,5.89-.62,13.79.63,7.9,4.14,16.43,4.26,20.19.13,3.76-1.61,6.77-1.61,12.41,0,14.8,7.01,44.84,6.92,47.73-.11,3.3-.83,5.77-.9,7-.08,1.23-.11,3.19-.11,3.8s-.17,2.72-.64,4.55c-.28,1.08-.8,3.96.51,5.28,1.79,1.8,4.27,1.85,4.59,2.2.52.58.32,1.44,1.9,2.84.99.87,2.41,1.19,2.78,1.53.21.19,1.94,2.41,4.29,3.45,1.47.65,3.35.86,4.46.27,1.5-.79.83-2.11.83-2.11,0,0,1.46,1.18,2.52.63,1.16-.6,1.07-1.47,1.07-1.47,0,0,.7.91,1.76.36.27-.14.63-.51.61-1.03.56.1,1.44-.44,1.04-1.59.3-.21.48-.72.3-1.1-.4-.88-1.32-1.92-2.85-2.69-1.53-.77-6.89-6.59-8.88-10.43.23-1.3-.37-3.36-.53-4.44-.15-1.07-.77-2.81-.65-5.7.13-2.88,7-27.6,7-55.99,0-7.43-3.77-15.8-3.77-17.93s.88-6.27,1-8.53c.13-2.26-.38-5.89-.25-7.65.13-1.76,8.94-30.39,8.99-53.55.01-7.27-.63-18.58-1.13-21.59-.5-3.01-1.37-6.86-2.79-15.55-.76-4.65-2.52-12.13-4.93-19.08-.99-2.85-3.42-6.37-3.96-10.28-.77-5.63-.86-8.56-.48-12.7.26-2.81.08-4.39.12-6.07,1.51-1.09,2.92-2.01,3.32-5.04.29,2.37.38,7.63.6,9.99.35,3.82.95,9.86.95,13.56,0,2.38,2,11.59,4.35,21.68,2.56,10.95,5.85,22.92,7.12,28.27,1.09,4.13,1.51,7.14,1.51,7.82,0,2.52-1.46,5.66-1.14,8.6.16,1.46,1.15,3.56,1.15,5.24s-1.06,8.01,1.78,7.86c1.95-.1,2.09-3.25,2.2-4.51.1-1.26-.66-4.58.84-4.3.95.18,1.17,6.62.33,8.3-.84,1.68-3.16,2.91-3.79,3.43-.63.52-2.31,1.36-1.99,2.73.23,1.02,1.68.52,1.68.52,0,0,.42.84,1.26.84s6.69-3.5,7.87-5.04c1.29-1.68,2.61-8.52,2.61-10.47,0-.62-1.13-3.86-2.17-6.86Z"></path></svg></div></div><div class="w-full max-w-[180px] mb-4 -mt-1"><div class="flex flex-col items-center"><div class="bg-[#192e35] text-white px-6 py-1.5 text-[14px] font-bold tracking-[0.2em] font-sans uppercase inline-block shadow-sm mb-2 rounded-sm">GENOTIPO</div><div class="relative w-full"><input type="text" class="w-full text-center border-2 rounded-sm p-1.5 font-bold text-base focus:outline-none transition-all relative border-[#192e35]/20 bg-gray-50 focus:border-[#192e35]" placeholder="..." value=""></div></div></div><div class="flex flex-col items-center mb-4 w-full relative h-10"><div class="absolute top-[-15px] text-[10px] font-black uppercase tracking-widest opacity-30">Meiosis</div><svg width="100%" height="100%" viewBox="0 0 100 40" class="overflow-visible"><path d="M 50 0 L 50 15 L 20 25 M 50 15 L 80 25" fill="none" stroke="#192e35" stroke-width="1.5" stroke-dasharray="4 2" opacity="0.3"></path><circle cx="50" cy="15" r="1.5" fill="#192e35"></circle></svg></div><div class="w-full flex flex-col items-center"><div class="bg-[#192e35] text-white px-6 py-1.5 text-[14px] font-bold tracking-[0.2em] font-sans uppercase inline-block shadow-sm mb-2 rounded-sm">GAMETOS</div><div class="flex items-center justify-center gap-4 w-full max-w-[280px]"><div class="relative flex-1"><input type="text" class="w-full text-center border-2 rounded-sm p-1.5 font-bold text-base focus:outline-none transition-all relative border-[#192e35]/20 bg-gray-50 focus:border-[#192e35]" value=""></div><span class="font-black text-[#192e35] text-lg pb-0.5 italic opacity-40">y</span><div class="relative flex-1"><input type="text" class="w-full text-center border-2 rounded-sm p-1.5 font-bold text-base focus:outline-none transition-all relative border-[#192e35]/20 bg-gray-50 focus:border-[#192e35]" value=""></div></div></div></div></main><footer class="mt-auto flex gap-6 items-center pt-2"><button class="bg-[#b66eab] text-white px-8 py-2.5 rounded-sm font-bold uppercase tracking-widest hover:opacity-90 transition-all shadow-[0_4px_0_0_#94568a] active:translate-y-1 active:shadow-none">Verificar Respuestas</button><button class="text-[#192e35] px-4 py-1.5 rounded-sm font-bold uppercase tracking-widest flex items-center gap-2 hover:bg-gray-100 transition-all text-sm"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="1 4 1 10 7 10"></polyline><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"></path></svg>Reiniciar</button></footer></div></div>
+    </div>
+
+    <script type="text/babel">
+        const { useState } = React;
+
+        const CheckIcon = () => (
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+        );
+
+        const XIcon = () => (
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        );
+
+        const RotateIcon = () => (
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="1 4 1 10 7 10"></polyline><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"></path></svg>
+        );
+
+        const FatherSVG = () => (
+            <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 137.87 434.77" className="w-full h-full object-contain">
+                <path fill="#192f36" d="M131.39,231.92c.01-1.82.34-3.8.47-5.62.11-1.61-.4-3.32-.47-4.92-.33-7.35-.26-15.23-.43-22.84-.19-8.09.34-16.74-.95-24.58-.61-3.69-2.07-7.43-2.78-11.1-2.1-10.98-1.03-38.61-1.04-50,0-7.52-1.37-16.21-5.55-22.57-2.93-4.46-8.43-7.09-13.53-8.23-4.18-1.17-8.33-2.42-12.45-3.78-3.48-1.15-11.72-2.74-13.1-5.84-1.52-3.42-.9-7.62-.79-11.92,1.99-2.68,3.41-5.65,4.1-8.07,2.23-.16,1.78-4.06,2.1-5.05.32-.99,2.11-6.75,1.54-7.55-.58-.8-1.24-.03-1.24-.03,0,0,1.23-10.54-1.14-16.68-1.85-4.8-7.57-11.38-17.86-11.38h-.02c-10.29,0-16.01,6.59-17.86,11.38-2.36,6.14-1.13,16.68-1.13,16.68,0,0-.67-.78-1.25.03-.58.8,1.22,6.56,1.54,7.55.32.99-.13,4.89,2.1,5.05.78,2.76,2.54,6.26,5.01,9.22.08,3.92.46,7.64-.94,10.77-1.37,3.06-9.34,4.68-12.78,5.84-4.01,1.35-8.06,2.61-12.13,3.78-5.1,1.13-10.61,3.77-13.53,8.23-4.18,6.36-5.55,15.05-5.55,22.57-.01,11.38,1.06,39.02-1.04,50-.7,3.67-2.17,7.41-2.78,11.1-1.29,7.85-.77,16.49-.95,24.58-.18,7.61-.11,15.48-.44,22.84-.07,1.6-.58,3.31-.47,4.92.13,1.82.45,3.8.47,5.62.03,5.22-1.94,11.36-1.2,16.41.56,3.77,3.29,10.38,5.98,12.67,2.38,2.02,7.31,5.22,9.77,5.36.19.01.79-1.82.2-3.04-.93-1.93-4.09-3.39-4.92-4.85-.84-1.47-.92-3.38-1.07-5.03-.13-1.5-.52-3.06,0-4.58.23-.67.91-2.54,1.79-2.54.2,0,1.35,1.09,1.46,1.93.19,1.46.08,3.08.2,4.52.15,1.79,1.28,5.42,3.06,5.69,1.39.21,1.46-.22,1.79-.87s-.4-3.39-.13-4.32-.03-2.71-.2-3.52c-.47-2.15.16-4.91-.13-7.22-.31-2.4-1.31-5.47-2.72-7.45-1.19-1.66-2.92-3.43-3.45-5.36-.63-2.27-.47-5.41.2-7.77,2.63-9.19,6.15-18.8,7.74-28.44,1.58-9.62,2.97-19.5,4.14-29.06.44-3.63,1.37-15.99,2.08-21.06,0-.61.07-1.02.19-1.17-.06.32-.12.72-.19,1.17-.05,3.65,1.75,14.65,3.57,21.64,1.22,4.66.17,16.94-1.48,27.45-1.65,10.56-6.65,18.31-7.59,35.51-.75,13.7.44,27.85,1.68,41.6.93,10.33,2.87,20.69,5.03,30.73.81,3.79.46,8,.29,11.89-.15,3.58.37,7.24.15,10.75-.43,6.88-2.95,13.83-2.85,20.82.22,15.33,3.31,31.45,5.51,46.83.61,4.25,2.73,9.92,1.66,13.49-.95,3.17-4.54,6.53-6.32,9.97-1.2,2.31-4.47,3.84-6.53,5.23-1.31.88-2.48,2.07-3.7,3.05-.53.42-2.35,1.5-2.91,2.32-.76,1.13-.22,1.66-.07,1.67-.76.69-.74,1.93-.09,2.01-.41,1.11.22,1.77.9,1.64-.46.92.52,1.89,1.43,1.6.51,1.9,3.17,1.49,4.48.82.2,2.1,3.09,2.55,4.69,2.26,1.92-.34,3.73-.92,5.31-2.15.68-.53,1.57-2.07,1.96-2.4,1.24-1.05,3.07-1.56,4.32-2.68,1.13-1.02,1.5-2.75,2.25-3.88.76-1.13,2.42-2.42,3.86-2.64,1.98-.31,4.61-1.01,5.55-3.11.91-2.03.6-4.84.1-6.97-.37-1.56-1.05-3.23-1.03-4.78,0-.53.42-1.91.2-3.4-.24-1.64-1.06-2.89-1.29-4.14-.38-2-.39-4.09-.42-6.13-.07-5.69,1.64-11.62,2.68-17.19,1.36-7.27,2.91-14.66,3.23-22.02.2-4.62.05-9.25-.46-13.87-.28-2.49-.87-5.13-.57-7.59.83-6.92,4.78-13.65,5.75-20.67.93-6.8-.27-13.8.32-20.63.67-7.83,1.92-15.75,3.14-23.57.72-4.55,1.45-9.12,2.47-13.62.35-1.53.84-7.8,1.89-8.74.05-.04.35.09.65.08.32,0,.66-.15.71-.11,1.09.9,1.57,7.22,1.92,8.77,1.02,4.5,1.76,9.06,2.47,13.62,1.22,7.82,2.44,15.71,3.14,23.57.62,6.86-.62,13.83.32,20.63.96,7.02,4.92,13.75,5.75,20.67.29,2.46-.29,5.1-.57,7.59-.52,4.62-.67,9.25-.46,13.87.33,7.35,1.87,14.75,3.23,22.02,1.04,5.57,2.74,11.5,2.68,17.19-.03,2.04-.04,4.13-.42,6.13-.24,1.25-1.05,2.49-1.3,4.14-.22,1.49.2,2.87.21,3.4.02,1.55-.67,3.24-1.03,4.78-.49,2.16-.87,5.01.09,6.97,1,2.02,3.45,2.77,5.55,3.11,1.44.23,3.1,1.52,3.86,2.64.75,1.13,1.12,2.86,2.25,3.88,1.25,1.12,3.08,1.64,4.32,2.68.39.33,1.28,1.87,1.96,2.4,1.59,1.23,3.44,1.87,5.32,2.15,1.59.24,4.48-.09,4.69-2.26,1.33.68,3.96,1.08,4.48-.82.91.29,1.89-.68,1.43-1.6.68.13,1.31-.52.89-1.64.66-.08.68-1.32-.09-2.01.15-.02.69-.54-.07-1.67-.55-.82-2.38-1.9-2.91-2.32-1.22-.97-2.39-2.16-3.7-3.05-2.13-1.44-5.29-2.99-6.53-5.23-1.82-3.3-5.38-6.8-6.32-9.97-1.05-3.54,1.05-9.26,1.66-13.49,2.2-15.37,5.31-31.48,5.51-46.83.09-7.01-2.42-13.93-2.85-20.82-.22-3.51.29-7.18.15-10.75-.15-3.88-.52-8.1.3-11.89,2.15-10.04,4.1-20.4,5.03-30.73,1.24-13.75,1.97-27.89,1.68-41.6-.42-19.41-5.87-24.99-7.59-35.51-1.71-10.45-2.28-22.59-1.48-27.45,1.29-7.86,2.67-18.5,2.07-23.08.44,1.94,3.23,18.44,3.7,22.5,1.12,9.64,2.56,19.43,4.14,29.06,1.59,9.64,5.2,19.3,7.74,28.44.65,2.35.85,5.49.2,7.77-.55,1.94-2.27,3.7-3.45,5.36-1.42,1.99-2.41,5.05-2.73,7.45-.29,2.31.34,5.06-.13,7.22-.17.8-.46,2.58-.2,3.52.26.93-.47,3.67-.13,4.32.33.65,1.14,1.13,1.79.87,1.75-.71,2.91-3.8,3.06-5.69.11-1.44,0-3.06.2-4.52.11-.84,1.26-1.93,1.46-1.93,1.56.03,2.1,3.62,2,4.68-.22,2.37-.03,5.33-1.27,7.45-.86,1.47-3.99,2.91-4.92,4.85-.59,1.23.01,3.06.2,3.04,2.47-.14,7.39-3.34,9.76-5.36,2.69-2.28,5.42-8.9,5.98-12.67.75-5.05-1.23-11.19-1.19-16.41Z"/>
+            </svg>
+        );
+
+        const MotherSVG = () => (
+            <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 137.87 395.28" className="w-full h-full object-contain">
+                <path fill="#192f36" d="M125.98,219.07c-.73-2.11-1.11-4.21-1.28-4.77-.42-1.36-.03-1.78-.29-2.88-.18-.8-.25-1.19-.81-2.32-.13-.26,0-7.78-.15-10.45-.37-3.63-.65-14.16-1.28-23.38-.45-6.61-1.24-12.55-1.66-14.82-1.1-5.96-2.85-12.06-3.2-16.1-.49-5.64-.92-13.17-.32-21.54.61-8.56-.76-28.58-7.82-36.48-3.64-4.07-10.73-6.08-14.17-6.62-6.03-.95-10.16-2.65-12.08-5.88-.46-.77-1-3.02-1.32-5.15,7.08-1.03,13.74-3.66,18.58-9.51-7.19-1.2-7.99-8.18-7.51-13.45.48-5.27-.18-15.31-2.44-19.93-4.27-8.73-17.62-12.4-25.53-8.56-6.71-1.2-10.16,3.39-13.04,6.99s-11.4,24-7.1,33.52c3.53,7.82,10.51,9.83,13.19,10.22.46.07,1.02.15,1.68.25-.19,2.58-7.56,10.56-13.59,11.51-3.44.54-10.53,2.56-14.17,6.62-7.06,7.9-8.43,27.92-7.82,36.48.6,8.37.17,15.9-.32,21.54-.35,4.03-2.1,10.14-3.2,16.1-.43,2.3-1.22,8.39-1.68,15.12-.62,9.16-.89,19.49-1.26,23.08-.15,2.67-.02,10.19-.15,10.45-.56,1.13-.63,1.52-.81,2.32-.25,1.1.13,1.52-.29,2.88-.17.56-.55,2.66-1.28,4.77-1.04,3.01-2.17,6.25-2.17,6.86,0,1.95,1.32,8.79,2.61,10.47,1.18,1.54,7.04,5.04,7.87,5.04s1.26-.84,1.26-.84c0,0,1.44.5,1.68-.52.31-1.37-1.36-2.21-1.99-2.73-.63-.52-2.95-1.75-3.79-3.43-.84-1.68-.62-8.13.33-8.3,1.5-.28.74,3.04.84,4.3.1,1.26.25,4.41,2.2,4.51,2.84.15,1.78-6.18,1.78-7.86s1-3.78,1.15-5.24c.31-2.93-.82-6.08-.82-8.6,0-.68.27-3.7,1.36-7.82,1.43-6,5-20.35,7.72-32.23,1.93-8.45,3.44-15.65,3.44-17.71,0-3.7.76-9.74,1.11-13.56.22-2.36.31-7.62.6-9.99.41,3.03,1.81,3.95,3.32,5.04.04,1.68-.14,3.26.12,6.07.38,4.14.29,7.08-.48,12.7-.54,3.91-2.97,7.43-3.96,10.28-2.41,6.95-4.17,14.43-4.93,19.08-1.42,8.69-2.29,12.54-2.79,15.55-.5,3.01-1.15,14.31-1.13,21.59.04,23.15,8.86,51.79,8.99,53.55.13,1.76-.38,5.39-.25,7.65.13,2.26,1,6.4,1,8.53s-3.77,10.51-3.77,17.93c0,28.39,6.87,53.11,7,55.99.13,2.88-.49,4.62-.65,5.7-.15,1.07-.76,3.13-.53,4.44-1.99,3.83-7.35,9.66-8.88,10.43-1.53.77-2.45,1.81-2.85,2.69-.17.38,0,.9.3,1.1-.4,1.15.48,1.69,1.04,1.59-.01.52.34.89.61,1.03,1.06.55,1.76-.36,1.76-.36,0,0-.1.87,1.07,1.47,1.07.55,2.52-.63,2.52-.63,0,0-.67,1.31.83,2.11,1.12.59,2.99.38,4.46-.27,2.36-1.03,4.09-3.26,4.29-3.45.36-.33,1.79-.66,2.78-1.53,1.58-1.4,1.38-2.26,1.9-2.84.32-.35,2.8-.4,4.59-2.2,1.31-1.32.79-4.2.51-5.28-.47-1.82-.64-3.93-.64-4.55s-.04-2.58-.11-3.8c-.08-1.23-.79-3.7-.9-7-.1-2.89,6.92-32.93,6.92-47.73,0-5.65-1.74-8.65-1.61-12.41.13-3.76,3.64-12.29,4.26-20.19.63-7.9-.87-9.91-.62-13.79.13-2.08,2.23-13.73,3.45-24.76,1.05-9.55,1.57-15.93,1.68-17.97.19-3.36.25-6.19.29-8,.31.07.56.11.8.12h0s0,0,0,0h0s0,0,0,0c.24,0,.49-.05.8-.12.04,1.81.1,4.64.29,8,.12,2.06.66,8.66,1.73,18.35,1.21,10.92,3.27,22.32,3.41,24.38.25,3.89-1.24,5.89-.62,13.79.63,7.9,4.14,16.43,4.26,20.19.13,3.76-1.61,6.77-1.61,12.41,0,14.8,7.01,44.84,6.92,47.73-.11,3.3-.83,5.77-.9,7-.08,1.23-.11,3.19-.11,3.8s-.17,2.72-.64,4.55c-.28,1.08-.8,3.96.51,5.28,1.79,1.8,4.27,1.85,4.59,2.2.52.58.32,1.44,1.9,2.84.99.87,2.41,1.19,2.78,1.53.21.19,1.94,2.41,4.29,3.45,1.47.65,3.35.86,4.46.27,1.5-.79.83-2.11.83-2.11,0,0,1.46,1.18,2.52.63,1.16-.6,1.07-1.47,1.07-1.47,0,0,.7.91,1.76.36.27-.14.63-.51.61-1.03.56.1,1.44-.44,1.04-1.59.3-.21.48-.72.3-1.1-.4-.88-1.32-1.92-2.85-2.69-1.53-.77-6.89-6.59-8.88-10.43.23-1.3-.37-3.36-.53-4.44-.15-1.07-.77-2.81-.65-5.7.13-2.88,7-27.6,7-55.99,0-7.43-3.77-15.8-3.77-17.93s.88-6.27,1-8.53c.13-2.26-.38-5.89-.25-7.65.13-1.76,8.94-30.39,8.99-53.55.01-7.27-.63-18.58-1.13-21.59-.5-3.01-1.37-6.86-2.79-15.55-.76-4.65-2.52-12.13-4.93-19.08-.99-2.85-3.42-6.37-3.96-10.28-.77-5.63-.86-8.56-.48-12.7.26-2.81.08-4.39.12-6.07,1.51-1.09,2.92-2.01,3.32-5.04.29,2.37.38,7.63.6,9.99.35,3.82.95,9.86.95,13.56,0,2.38,2,11.59,4.35,21.68,2.56,10.95,5.85,22.92,7.12,28.27,1.09,4.13,1.51,7.14,1.51,7.82,0,2.52-1.46,5.66-1.14,8.6.16,1.46,1.15,3.56,1.15,5.24s-1.06,8.01,1.78,7.86c1.95-.1,2.09-3.25,2.2-4.51.1-1.26-.66-4.58.84-4.3.95.18,1.17,6.62.33,8.3-.84,1.68-3.16,2.91-3.79,3.43-.63.52-2.31,1.36-1.99,2.73.23,1.02,1.68.52,1.68.52,0,0,.42.84,1.26.84s6.69-3.5,7.87-5.04c1.29-1.68,2.61-8.52,2.61-10.47,0-.62-1.13-3.86-2.17-6.86Z"/>
+                <path fill="#192f36" d="M125.98,219.07c-.73-2.11-1.11-4.21-1.28-4.77-.42-1.36-.03-1.78-.29-2.88-.18-.8-.25-1.19-.81-2.32-.13-.26,0-7.78-.15-10.45-.37-3.63-.65-14.16-1.28-23.38-.45-6.61-1.24-12.55-1.66-14.82-1.1-5.96-2.85-12.06-3.2-16.1-.49-5.64-.92-13.17-.32-21.54.61-8.56-.76-28.58-7.82-36.48-3.64-4.07-10.73-6.08-14.17-6.62-6.03-.95-10.16-2.65-12.08-5.88-.46-.77-1-3.02-1.32-5.15,7.08-1.03,13.74-3.66,18.58-9.51-7.19-1.2-7.99-8.18-7.51-13.45.48-5.27-.18-15.31-2.44-19.93-3.35-6.85-12.3-10.58-19.82-10.02v203.51h0s0,0,0,0c.24,0,.49-.05.8-.12.04,1.81.1,4.64.29,8,.12,2.06.66,8.66,1.73,18.35,1.21,10.92,3.27,22.32,3.41,24.38.25,3.89-1.24,5.89-.62,13.79.63,7.9,4.14,16.43,4.26,20.19.13,3.76-1.61,6.77-1.61,12.41,0,14.8,7.01,44.84,6.92,47.73-.11,3.3-.83,5.77-.9,7-.08,1.23-.11,3.19-.11,3.8s-.17,2.72-.64,4.55c-.28,1.08-.8,3.96.51,5.28,1.79,1.8,4.27,1.85,4.59,2.2.52.58.32,1.44,1.9,2.84.99.87,2.41,1.19,2.78,1.53.21.19,1.94,2.41,4.29,3.45,1.47.65,3.35.86,4.46.27,1.5-.79.83-2.11.83-2.11,0,0,1.46,1.18,2.52.63,1.16-.6,1.07-1.47,1.07-1.47,0,0,.7.91,1.76.36.27-.14.63-.51.61-1.03.56.1,1.44-.44,1.04-1.59.3-.21.48-.72.3-1.1-.4-.88-1.32-1.92-2.85-2.69-1.53-.77-6.89-6.59-8.88-10.43.23-1.3-.37-3.36-.53-4.44-.15-1.07-.77-2.81-.65-5.7.13-2.88,7-27.6,7-55.99,0-7.43-3.77-15.8-3.77-17.93s.88-6.27,1-8.53c.13-2.26-.38-5.89-.25-7.65.13-1.76,8.94-30.39,8.99-53.55.01-7.27-.63-18.58-1.13-21.59-.5-3.01-1.37-6.86-2.79-15.55-.76-4.65-2.52-12.13-4.93-19.08-.99-2.85-3.42-6.37-3.96-10.28-.77-5.63-.86-8.56-.48-12.7.26-2.81.08-4.39.12-6.07,1.51-1.09,2.92-2.01,3.32-5.04.29,2.37.38,7.63.6,9.99.35,3.82.95,9.86.95,13.56,0,2.38,2,11.59,4.35,21.68,2.56,10.95,5.85,22.92,7.12,28.27,1.09,4.13,1.51,7.14,1.51,7.82,0,2.52-1.46,5.66-1.14,8.6.16,1.46,1.15,3.56,1.15,5.24s-1.06,8.01,1.78,7.86c1.95-.1,2.09-3.25,2.2-4.51.1-1.26-.66-4.58.84-4.3.95.18,1.17,6.62.33,8.3-.84,1.68-3.16,2.91-3.79,3.43-.63.52-2.31,1.36-1.99,2.73.23,1.02,1.68.52,1.68.52,0,0,.42.84,1.26.84s6.69-3.5,7.87-5.04c1.29-1.68,2.61-8.52,2.61-10.47,0-.62-1.13-3.86-2.17-6.86Z"/>
+            </svg>
+        );
+
+        function ValidationBadge({ isValid }) {
+            if (isValid === null) return null;
+            return (
+                <div style={{ position: 'absolute', top: '-11px', right: '-11px', zIndex: 10 }}>
+                    {isValid ? (
+                        <div style={{ background: '#22c55e', borderRadius: '9999px', padding: '5px', border: '2px solid white', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }}>
+                            <span style={{ color: 'white' }}><CheckIcon /></span>
+                        </div>
+                    ) : (
+                        <div style={{ background: '#ef4444', borderRadius: '9999px', padding: '5px', border: '2px solid white', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }}>
+                            <span style={{ color: 'white' }}><XIcon /></span>
+                        </div>
+                    )}
+                </div>
+            );
+        }
+
+        function ProgenitorSection({ title, subtitle, SVGComponent, state, setState, validation, accentColor }) {
+            const getInputClass = (isValid) => {
+                const base = "w-full text-center border-2 rounded-sm p-1.5 font-bold text-base focus:outline-none transition-all relative";
+                if (isValid === true) return `${base} border-green-500 bg-green-50 text-green-700`;
+                if (isValid === false) return `${base} border-red-500 bg-red-50 text-red-700`;
+                return `${base} border-[#192e35]/20 bg-gray-50 focus:border-[#192e35]`;
+            };
+
+            const labelBoxClass = "bg-[#192e35] text-white px-6 py-1.5 text-[14px] font-bold tracking-[0.2em] font-sans uppercase inline-block shadow-sm mb-2 rounded-sm";
+
+            return (
+                <div className="flex flex-col items-center flex-1">
+                    {/* Fenotipo */}
+                    <div className="flex flex-col items-center mb-0 w-full">
+                        <div className={labelBoxClass}>{title}</div>
+                        <div className="text-[13px] font-black tracking-widest mb-1.5" style={{ color: accentColor }}>{subtitle}</div>
+                        <div className="w-44 h-44 flex items-center justify-center">
+                            <SVGComponent />
+                        </div>
+                    </div>
+
+                    {/* Genotipo */}
+                    <div className="w-full max-w-[180px] mb-4 -mt-1">
+                        <div className="flex flex-col items-center">
+                            <div className={labelBoxClass}>GENOTIPO</div>
+                            <div className="relative w-full">
+                                <input
+                                    type="text"
+                                    value={state.genotype}
+                                    onChange={(e) => setState({ ...state, genotype: e.target.value })}
+                                    className={getInputClass(validation.genotype)}
+                                    placeholder="..."
+                                />
+                                <ValidationBadge isValid={validation.genotype} />
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Meiosis Flow */}
+                    <div className="flex flex-col items-center mb-4 w-full relative h-10">
+                        <div className="absolute top-[-15px] text-[10px] font-black uppercase tracking-widest opacity-30">Meiosis</div>
+                        <svg width="100%" height="100%" viewBox="0 0 100 40" className="overflow-visible">
+                            <path d="M 50 0 L 50 15 L 20 25 M 50 15 L 80 25" fill="none" stroke="#192e35" strokeWidth="1.5" strokeDasharray="4 2" opacity="0.3" />
+                            <circle cx="50" cy="15" r="1.5" fill="#192e35" />
+                        </svg>
+                    </div>
+
+                    {/* Gametos */}
+                    <div className="w-full flex flex-col items-center">
+                        <div className={labelBoxClass}>GAMETOS</div>
+                        <div className="flex items-center justify-center gap-4 w-full max-w-[280px]">
+                            <div className="relative flex-1">
+                                <input
+                                    type="text"
+                                    value={state.gamete1}
+                                    onChange={(e) => setState({ ...state, gamete1: e.target.value })}
+                                    className={getInputClass(validation.gamete1)}
+                                />
+                                <ValidationBadge isValid={validation.gamete1} />
+                            </div>
+                            <span className="font-black text-[#192e35] text-lg pb-0.5 italic opacity-40">y</span>
+                            <div className="relative flex-1">
+                                <input
+                                    type="text"
+                                    value={state.gamete2}
+                                    onChange={(e) => setState({ ...state, gamete2: e.target.value })}
+                                    className={getInputClass(validation.gamete2)}
+                                />
+                                <ValidationBadge isValid={validation.gamete2} />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            );
+        }
+
+        function App() {
+            const [father, setFather] = useState({ genotype: '', gamete1: '', gamete2: '' });
+            const [mother, setMother] = useState({ genotype: '', gamete1: '', gamete2: '' });
+            const [fatherValidation, setFatherValidation] = useState({ genotype: null, gamete1: null, gamete2: null });
+            const [motherValidation, setMotherValidation] = useState({ genotype: null, gamete1: null, gamete2: null });
+
+            const correctFather = { genotype: 'XcY', gamete1: 'Xc', gamete2: 'Y' };
+            const correctMother = { genotype: 'XCXc', gamete1: 'XC', gamete2: 'Xc' };
+
+            const handleVerify = () => {
+                setFatherValidation({
+                    genotype: father.genotype.trim() === correctFather.genotype,
+                    gamete1: father.gamete1.trim() === correctFather.gamete1,
+                    gamete2: father.gamete2.trim() === correctFather.gamete2,
+                });
+                setMotherValidation({
+                    genotype: mother.genotype.trim() === correctMother.genotype,
+                    gamete1: mother.gamete1.trim() === correctMother.gamete1,
+                    gamete2: mother.gamete2.trim() === correctMother.gamete2,
+                });
+            };
+
+            const handleRestart = () => {
+                setFather({ genotype: '', gamete1: '', gamete2: '' });
+                setMother({ genotype: '', gamete1: '', gamete2: '' });
+                setFatherValidation({ genotype: null, gamete1: null, gamete2: null });
+                setMotherValidation({ genotype: null, gamete1: null, gamete2: null });
+            };
+
+            return (
+                <div className="min-h-screen flex flex-col items-center p-5 bg-white overflow-visible">
+                    <header className="mb-4 text-center">
+                        <p className="text-[16px] font-bold uppercase tracking-[0.2em] opacity-60">Completá los espacios en blanco según corresponda</p>
+                    </header>
+
+                    <main className="w-full max-w-4xl flex gap-10 relative">
+                        <ProgenitorSection
+                            title="FENOTIPO"
+                            subtitle="PADRE"
+                            SVGComponent={FatherSVG}
+                            state={father}
+                            setState={setFather}
+                            validation={fatherValidation}
+                            accentColor="#192e35"
+                        />
+
+                        <ProgenitorSection
+                            title="FENOTIPO"
+                            subtitle="MADRE"
+                            SVGComponent={MotherSVG}
+                            state={mother}
+                            setState={setMother}
+                            validation={motherValidation}
+                            accentColor="#b66eab"
+                        />
+                    </main>
+
+                    <footer className="mt-auto flex gap-6 items-center pt-2">
+                        <button
+                            onClick={handleVerify}
+                            className="bg-[#b66eab] text-white px-8 py-2.5 rounded-sm font-bold uppercase tracking-widest hover:opacity-90 transition-all shadow-[0_4px_0_0_#94568a] active:translate-y-1 active:shadow-none"
+                        >
+                            Verificar Respuestas
+                        </button>
+                        <button
+                            onClick={handleRestart}
+                            className="text-[#192e35] px-4 py-1.5 rounded-sm font-bold uppercase tracking-widest flex items-center gap-2 hover:bg-gray-100 transition-all text-sm"
+                        >
+                            <RotateIcon />
+                            Reiniciar
+                        </button>
+                    </footer>
+                </div>
+            );
+        }
+
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(<App />);
+    </script>
+
+
+</body></html>
